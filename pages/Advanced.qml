@@ -64,6 +64,7 @@ ColumnLayout {
         MoneroComponents.NavbarItem {
             active: state == "SharedRingDB"
             text: qsTr("Shared RingDB") + translationManager.emptyString
+            visible: false // Opacra: Monero key-reuse tool, not needed
             onSelected: state = "SharedRingDB"
         }
         MoneroComponents.NavbarItem {

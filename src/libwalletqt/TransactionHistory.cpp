@@ -85,9 +85,9 @@ bool TransactionHistory::transaction(int index, std::function<void (TransactionI
 void TransactionHistory::refresh(quint32 accountIndex)
 {
 #if QT_VERSION >= QT_VERSION_CHECK(5, 14, 0)
-    QDateTime firstDateTime = QDate(2014, 4, 18).startOfDay();
+    QDateTime firstDateTime = QDate(2026, 10, 26).startOfDay();
 #else
-    QDateTime firstDateTime = QDateTime(QDate(2014, 4, 18)); // the genesis block
+    QDateTime firstDateTime = QDateTime(QDate(2026, 10, 26)); // the genesis block
 #endif
     QDateTime lastDateTime  = QDateTime::currentDateTime().addDays(1); // tomorrow (guard against jitter and timezones)
 
@@ -124,7 +124,7 @@ void TransactionHistory::refresh(quint32 accountIndex)
             if (ti->confirmations() < requiredConfirmations && ti->blockHeight() >= lastTxHeight) {
                 lastTxHeight = ti->blockHeight();
                 // TODO: Fetch block time and confirmations needed from wallet2?
-                m_minutesToUnlock = (requiredConfirmations - ti->confirmations()) * 2;
+                m_minutesToUnlock = (requiredConfirmations - ti->confirmations() + 1) / 2; // Opacra: 30-second blocks
                 m_locked = true;
             }
         }
@@ -174,9 +174,9 @@ TransactionHistory::TransactionHistory(Monero::TransactionHistory *pimpl, QObjec
     : QObject(parent), m_pimpl(pimpl), m_minutesToUnlock(0), m_locked(false)
 {
 #if QT_VERSION >= QT_VERSION_CHECK(5, 14, 0)
-    m_firstDateTime = QDate(2014, 4, 18).startOfDay();
+    m_firstDateTime = QDate(2026, 10, 26).startOfDay();
 #else
-    m_firstDateTime  = QDateTime(QDate(2014, 4, 18)); // the genesis block
+    m_firstDateTime  = QDateTime(QDate(2026, 10, 26)); // the genesis block
 #endif
     m_lastDateTime = QDateTime::currentDateTime().addDays(1); // tomorrow (guard against jitter and timezones)
 }

@@ -56,7 +56,7 @@ import "version.js" as Version
 ApplicationWindow {
     id: appWindow
     signal gracefulShutdownComplete()
-    title: "Monero" +
+    title: "Opacra" +
         (persistentSettings.displayWalletNameInTitleBar && walletName
         ? " - " + walletName
         : "")
@@ -175,7 +175,7 @@ ApplicationWindow {
             /*
             if(middlePanel.state === "Transfer") middlePanel.state = "Receive"
             else if(middlePanel.state === "Receive") middlePanel.state = "TxKey"
-            else if(middlePanel.state === "TxKey") middlePanel.state = "SharedRingDB"
+            else if(middlePanel.state === "TxKey") middlePanel.state = "History"
             else if(middlePanel.state === "SharedRingDB") middlePanel.state = "History"
             else if(middlePanel.state === "History") middlePanel.state = "AddressBook"
             else if(middlePanel.state === "AddressBook") middlePanel.state = "Mining"
@@ -195,7 +195,7 @@ ApplicationWindow {
             else if(middlePanel.state === "Sign") middlePanel.state = "Mining"
             else if(middlePanel.state === "Mining") middlePanel.state = "AddressBook"
             else if(middlePanel.state === "AddressBook") middlePanel.state = "History"
-            else if(middlePanel.state === "History") middlePanel.state = "SharedRingDB"
+            else if(middlePanel.state === "History") middlePanel.state = "TxKey"
             else if(middlePanel.state === "SharedRingDB") middlePanel.state = "TxKey"
             else if(middlePanel.state === "TxKey") middlePanel.state = "Receive"
             else if(middlePanel.state === "Receive") middlePanel.state = "Transfer"
@@ -436,8 +436,8 @@ ApplicationWindow {
         leftPanel.balanceString = balance
         leftPanel.balanceUnlockedString = balanceU
         if (middlePanel.state === "Account") {
-            middlePanel.accountView.balanceAllText = walletManager.displayAmount(appWindow.currentWallet.balanceAll()) + " XMR";
-            middlePanel.accountView.unlockedBalanceAllText = walletManager.displayAmount(appWindow.currentWallet.unlockedBalanceAll()) + " XMR";
+            middlePanel.accountView.balanceAllText = walletManager.displayAmount(appWindow.currentWallet.balanceAll()) + " OPCA";
+            middlePanel.accountView.unlockedBalanceAllText = walletManager.displayAmount(appWindow.currentWallet.unlockedBalanceAll()) + " OPCA";
         }
     }
 
@@ -447,7 +447,7 @@ ApplicationWindow {
             const parsed = walletManager.parse_uri_to_object(normalizedUri);
 
             if (parsed.error) {
-                console.log("Invalid Monero URI: " + parsed.error);
+                console.log("Invalid Opacra URI: " + parsed.error);
             } else {
                 middlePanel.transferView.sendTo(
                     parsed.address || "",
@@ -542,7 +542,7 @@ ApplicationWindow {
                     console.error("Error opening wallet with password: ", wallet.errorString);
                     var errorMessage = qsTr("Couldn't open wallet: ") + wallet.errorString;
                     if (wallet.isLedger()) {
-                        errorMessage += "\n" + qsTr("Make sure your Ledger is connected and unlocked, and the Monero app is open.");
+                        errorMessage += "\n" + qsTr("Make sure your Ledger is connected and unlocked, and the Opacra app is open.");
                     } else if (wallet.isTrezor()) {
                         errorMessage += "\n" + qsTr("Make sure your Trezor is connected and unlocked.");
                     }
@@ -1478,7 +1478,7 @@ ApplicationWindow {
                 oshelper.createDesktopEntry();
             } else if (isLinux) {
                 confirmationDialog.title = qsTr("Desktop entry") + translationManager.emptyString;
-                confirmationDialog.text  = qsTr("Would you like to register Monero GUI Desktop entry?") + translationManager.emptyString;
+                confirmationDialog.text  = qsTr("Would you like to register Opacra GUI Desktop entry?") + translationManager.emptyString;
                 confirmationDialog.icon = StandardIcon.Question;
                 confirmationDialog.cancelText = qsTr("No") + translationManager.emptyString;
                 confirmationDialog.okText = qsTr("Yes") + translationManager.emptyString;
@@ -1497,7 +1497,7 @@ ApplicationWindow {
         id: persistentSettings
         fileName: {
             if(isTails && tailsUsePersistence)
-                return homePath + "/Persistent/Monero/monero-core.conf";
+                return homePath + "/Persistent/Opacra/monero-core.conf";
             return "";
         }
 
