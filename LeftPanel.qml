@@ -252,8 +252,8 @@ Rectangle {
                 MoneroComponents.TextPlain {
                     id: balancePart1
                     themeTransition: false
-                    anchors.left: parent.left
-                    anchors.leftMargin: 58
+                    anchors.left: currencyLabel.right
+                    anchors.leftMargin: 8
                     anchors.baseline: currencyLabel.baseline
                     color: MoneroComponents.Style.blackTheme ? "white" : "black"
                     Binding on color {
