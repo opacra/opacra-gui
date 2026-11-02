@@ -99,7 +99,6 @@ Rectangle {
                 id: miningModeModel
 
                 ListElement { column1: qsTr("Solo") ; column2: ""; priority: 0}
-                ListElement { column1: "P2Pool" ; column2: ""; priority: 1}
             }
 
             ColumnLayout {

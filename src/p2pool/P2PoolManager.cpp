@@ -50,6 +50,9 @@
 #endif
 
 void P2PoolManager::download() {
+    // Opacra: P2Pool is a Monero-only program; never download it.
+    emit p2poolDownloadFailure(BinaryNotAvailable);
+    return;
     m_scheduler.run([this] {
         QUrl url;
         QString fileName;

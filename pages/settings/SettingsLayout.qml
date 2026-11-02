@@ -62,6 +62,7 @@ Rectangle {
 
         MoneroComponents.CheckBox {
             id: checkForUpdatesCheckBox
+            visible: false
             enabled: !disableCheckUpdatesFlag
             checked: persistentSettings.checkForUpdates && !disableCheckUpdatesFlag
             onClicked: persistentSettings.checkForUpdates = !persistentSettings.checkForUpdates
@@ -191,6 +192,7 @@ Rectangle {
         RowLayout {
             MoneroComponents.CheckBox {
                 id: enableConvertCurrency
+                visible: false
                 text: qsTr("Enable displaying balance in other currencies") + translationManager.emptyString
                 checked: persistentSettings.fiatPriceEnabled
                 onCheckedChanged: {

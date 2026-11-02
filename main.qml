@@ -1254,7 +1254,7 @@ ApplicationWindow {
     Timer {
         id: fiatPriceTimer
         interval: 1000 * 60 * 5;
-        running: persistentSettings.fiatPriceEnabled && currentWallet !== undefined
+        running: false // Opacra: no price feeds
         repeat: true
         onTriggered: appWindow.fiatApiRefresh()
         triggeredOnStart: true
@@ -2344,7 +2344,7 @@ ApplicationWindow {
         id: updatesTimer
         interval: 3600 * 1000
         repeat: true
-        running: !disableCheckUpdatesFlag && persistentSettings.checkForUpdates
+        running: false // Opacra: no update checks
         triggeredOnStart: true
         onTriggered: checkUpdates()
     }
@@ -2423,11 +2423,11 @@ ApplicationWindow {
     function getDefaultDaemonRpcPort(networkType) {
         switch (parseInt(networkType)) {
             case NetworkType.STAGENET:
-                return 38081;
+                return 29981;
             case NetworkType.TESTNET:
-                return 28081;
+                return 29971;
             default:
-                return 18081;
+                return 29961;
         }
     }
 
