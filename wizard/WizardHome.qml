@@ -104,6 +104,7 @@ Rectangle {
             }
 
             WizardMenuItem {
+                visible: false // Opacra: no hardware wallet supports Opacra
                 headerText: {
                     var nettype = persistentSettings.nettype;
                     return qsTr("Create a new wallet from hardware") + (nettype === 2 ? " (" + qsTr("stagenet") + ")"
@@ -120,6 +121,7 @@ Rectangle {
             }
 
             Rectangle {
+                visible: false // Opacra: divider of the hidden hardware option
                 Layout.preferredHeight: 1
                 Layout.topMargin: 3
                 Layout.bottomMargin: 3

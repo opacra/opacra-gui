@@ -86,7 +86,7 @@ QtObject {
     property string _b_defaultFontColor: "white"
     property string _b_dimmedFontColor: "#BBBBBB"
     property string _b_lightGreyFontColor: "#DFDFDF"
-    property string _b_errorColor: "#FA6800"
+    property string _b_errorColor: "#ff8fa3"
     property string _b_textSelectionColor: "#BBBBBB"
     property string _b_textSelectedColor: "white"
 
@@ -99,13 +99,13 @@ QtObject {
     property string _b_inputBorderColorInActive: Qt.rgba(255, 255, 255, 0.32)
     property string _b_inputBorderColorInvalid: Qt.rgba(255, 0, 0, 0.40)
 
-    property string _b_buttonBackgroundColor: "#FA6800"
-    property string _b_buttonBackgroundColorHover: "#E65E00"
+    property string _b_buttonBackgroundColor: "#b9a8ff"
+    property string _b_buttonBackgroundColorHover: "#cbbdff"
     property string _b_buttonBackgroundColorDisabled: "#707070"
     property string _b_buttonBackgroundColorDisabledHover: "#808080"
     property string _b_buttonInlineBackgroundColor: "#707070"
     property string _b_buttonInlineBackgroundColorHover: "#808080"
-    property string _b_buttonTextColor: "white"
+    property string _b_buttonTextColor: "#160f2e"
     property string _b_buttonTextColorDisabled: "black"
     property string _b_buttonSecondaryBackgroundColor: "#707070"
     property string _b_buttonSecondaryBackgroundColorHover: "#808080"
@@ -113,19 +113,19 @@ QtObject {
     property string _b_dividerColor: "white"
     property real _b_dividerOpacity: 0.20
 
-    property string _b_titleBarBackgroundGradientStart: "#262626";
-    property string _b_titleBarBackgroundGradientStop: "#191919"
-    property string _b_titleBarBackgroundBorderColor: "#2f2f2f"
+    property string _b_titleBarBackgroundGradientStart: "#1f1a29";
+    property string _b_titleBarBackgroundGradientStop: "#16121d"
+    property string _b_titleBarBackgroundBorderColor: "#2a2433"
     property string _b_titleBarLogoSource: "qrc:///images/titlebarLogo.png"
     property string _b_titleBarMinimizeSource: "qrc:///images/minimize.svg"
     property string _b_titleBarFullscreenSource: "qrc:///images/fullscreen.svg"
     property string _b_titleBarCloseSource: "qrc:///images/close.svg"
     property string _b_titleBarButtonHoverColor: "#10FFFFFF"
 
-    property string _b_wizardBackgroundGradientStart: "#1e1e1e"
-    property string _b_middlePanelBackgroundGradientStart: "#232323"
-    property string _b_middlePanelBackgroundGradientStop: "#101010"
-    property string _b_middlePanelBackgroundColor: "#181818"
+    property string _b_wizardBackgroundGradientStart: "#1a1522"
+    property string _b_middlePanelBackgroundGradientStart: "#1d1826"
+    property string _b_middlePanelBackgroundGradientStop: "#0f0c14"
+    property string _b_middlePanelBackgroundColor: "#18141f"
     property string _b_menuButtonFallbackBackgroundColor: "#09FFFFFF"
     property string _b_menuButtonGradientStart: "#11FFFFFF"
     property string _b_menuButtonGradientStop: "#00000000"
@@ -137,18 +137,18 @@ QtObject {
     property string _b_inlineButtonTextColor: "white"
     property string _b_inlineButtonBorderColor: "black"
     property string _b_appWindowBackgroundColor: "white"
-    property string _b_appWindowBorderColor: "#313131"
+    property string _b_appWindowBorderColor: "#2c2636"
     property bool _b_progressBarProgressTextBold: true
     property string _b_progressBarBackgroundColor: "#24FFFFFF"
-    property string _b_leftPanelBackgroundGradientStart: "#222222"
-    property string _b_leftPanelBackgroundGradientStop: "#1a1a1a"
+    property string _b_leftPanelBackgroundGradientStart: "#1c1724"
+    property string _b_leftPanelBackgroundGradientStop: "#15111c"
     property string _b_historyHeaderTextColor: "#C0C0C0"
-    property var _b_accountColors: ["#6E513C", "#842129", "#458421", "#742184", "#291DBE", "#846F21", "#217F84", "#696969"]
+    property var _b_accountColors: ["#3b2f6b", "#5a2a5e", "#24476b", "#2d5a55", "#4a3a7a", "#3a2a4f", "#26506e", "#3c3747"]
 
     property string _w_defaultFontColor: "black"
     property string _w_dimmedFontColor: "#3f3f3f"
     property string _w_lightGreyFontColor: "#515151"
-    property string _w_errorColor: "#FA6800"
+    property string _w_errorColor: "#c8354f"
     property string _w_textSelectionColor: "#BBBBBB"
     property string _w_textSelectedColor: "black"
 
@@ -161,8 +161,8 @@ QtObject {
     property string _w_inputBorderColorInActive: Qt.rgba(0, 0, 0, 0.16)
     property string _w_inputBorderColorInvalid: Qt.rgba(255, 0, 0, 0.50)
 
-    property string _w_buttonBackgroundColor: "#FA6800"
-    property string _w_buttonBackgroundColorHover: "#E65E00"
+    property string _w_buttonBackgroundColor: "#6a55d8"
+    property string _w_buttonBackgroundColorHover: "#5a46c4"
     property string _w_buttonBackgroundColorDisabled: "#bbbbbb"
     property string _w_buttonBackgroundColorDisabledHover: "#D1D1D1"
     property string _w_buttonInlineBackgroundColor: "#d9d9d9"
@@ -193,7 +193,7 @@ QtObject {
     property string _w_menuButtonGradientStop: "#10FFFFFF"
     property string _w_menuButtonTextColor: "#787878"
     property string _w_menuButtonImageRightSource: "qrc:///images/right.svg"
-    property string _w_menuButtonImageRightColorActive: "#FA6800"
+    property string _w_menuButtonImageRightColorActive: "#6a55d8"
     property string _w_menuButtonImageRightColor: "#808080"
     property string _w_menuButtonImageDotArrowSource: "qrc:///images/arrow-right-medium-white.png"
     property string _w_inlineButtonTextColor: "#4d4d4d"

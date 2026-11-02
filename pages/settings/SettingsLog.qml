@@ -185,7 +185,7 @@ Rectangle {
                         if(msg.toLowerCase().indexOf('error') >= 0){
                             color = MoneroComponents.Style.errorColor;
                         } else if (msg.toLowerCase().indexOf('warning') >= 0){
-                            color = "#fa6800"
+                            color = "#ff8fa3"
                         }
 
                         // format multi-lines

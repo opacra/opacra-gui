@@ -442,7 +442,7 @@ ApplicationWindow {
     }
 
     function onUriHandler(uri){
-        if (uri && (uri.startsWith("monero://") || uri.startsWith("monero:"))) {
+        if (uri && (uri.startsWith("opacra://") || uri.startsWith("opacra:"))) {
             const normalizedUri = uri.replace("monero://", "monero:");
             const parsed = walletManager.parse_uri_to_object(normalizedUri);
 
@@ -1478,7 +1478,7 @@ ApplicationWindow {
                 oshelper.createDesktopEntry();
             } else if (isLinux) {
                 confirmationDialog.title = qsTr("Desktop entry") + translationManager.emptyString;
-                confirmationDialog.text  = qsTr("Would you like to register Opacra GUI Desktop entry?") + translationManager.emptyString;
+                confirmationDialog.text  = qsTr("Would you like to add the Opacra wallet to your desktop menu?") + translationManager.emptyString;
                 confirmationDialog.icon = StandardIcon.Question;
                 confirmationDialog.cancelText = qsTr("No") + translationManager.emptyString;
                 confirmationDialog.okText = qsTr("Yes") + translationManager.emptyString;
@@ -2082,7 +2082,7 @@ ApplicationWindow {
             property alias text: content.text
             width: content.width + 12
             height: content.height + 17
-            color: "#FF6C3C"
+            color: "#b9a8ff"
             //radius: 3
             visible:false;
 

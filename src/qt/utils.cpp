@@ -85,7 +85,7 @@ QString getAccountName(){
     if (accountName.isEmpty())
         accountName = qgetenv("USERNAME"); // Windows
     if (accountName.isEmpty())
-        accountName = "My monero Account";
+        accountName = "My Opacra wallet";
     return accountName;
 }
 
@@ -93,21 +93,21 @@ QString getAccountName(){
 QString xdgMime(){
     return QString(
         "[Desktop Entry]\n"
-        "Name=Monero GUI\n"
-        "GenericName=Monero-GUI\n"
-        "X-GNOME-FullName=Monero-GUI\n"
-        "Comment=Monero GUI\n"
-        "Keywords=Monero;\n"
+        "Name=Opacra Wallet\n"
+        "GenericName=Opacra Wallet\n"
+        "X-GNOME-FullName=Opacra Wallet\n"
+        "Comment=Opacra Wallet\n"
+        "Keywords=Opacra;OPCA;\n"
         "Exec=\"%1\" %u\n"
         "Terminal=false\n"
         "Type=Application\n"
-        "Icon=monero\n"
+        "Icon=opacra\n"
         "Categories=Network;GNOME;Qt;\n"
-        "MimeType=x-scheme-handler/monero;x-scheme-handler/moneroseed\n"
+        "MimeType=x-scheme-handler/opacra;x-scheme-handler/opacraseed\n"
         "StartupNotify=true\n"
         "X-GNOME-Bugzilla-Bugzilla=GNOME\n"
         "X-GNOME-UsesNotifications=true\n"
-        "StartupWMClass=monero-wallet-gui\n"
+        "StartupWMClass=opacra-wallet-gui\n"
     ).arg(QCoreApplication::applicationFilePath());
 }
 
@@ -119,7 +119,7 @@ void registerXdgMime(){
     // - Tails written to persistent dotfiles
     QString mime = xdgMime();
     QString appPath = QStandardPaths::writableLocation(QStandardPaths::ApplicationsLocation);
-    QString filePath = QString("%1/monero-gui.desktop").arg(appPath);
+    QString filePath = QString("%1/opacra-wallet.desktop").arg(appPath);
 
     if (TailsOS::detect())
     {
