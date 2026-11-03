@@ -41,7 +41,7 @@ Rectangle {
     property alias pageHeight: pageRoot.height
     property string viewName: "wizardModeSelection1"
     property bool portable: persistentSettings.portable
-    property bool simpleModeAvailable: !isTails && appWindow.persistentSettings.nettype == 0 && !isAndroid
+    property bool simpleModeAvailable: false // Opacra: simple modes need public remote nodes, which Opacra does not run yet
 
     function applyWalletMode(mode, wizardState) {
         if (!persistentSettings.setPortable(portable)) {
@@ -77,6 +77,7 @@ Rectangle {
             }
 
             WizardMenuItem {
+                visible: simpleModeAvailable
                 opacity: simpleModeAvailable ? 1.0 : 0.5
                 Layout.topMargin: 20
                 headerText: qsTr("Simple mode") + translationManager.emptyString
@@ -102,6 +103,7 @@ Rectangle {
             }
 
             Rectangle {
+                visible: simpleModeAvailable
                 Layout.preferredHeight: 1
                 Layout.topMargin: 5
                 Layout.bottomMargin: 10
@@ -111,6 +113,7 @@ Rectangle {
             }
 
             WizardMenuItem {
+                visible: simpleModeAvailable
                 opacity: simpleModeAvailable ? 1.0 : 0.5
                 headerText: qsTr("Simple mode") + " (bootstrap)" + translationManager.emptyString
                 bodyText: {
@@ -135,6 +138,7 @@ Rectangle {
             }
 
             Rectangle {
+                visible: simpleModeAvailable
                 Layout.preferredHeight: 1
                 Layout.topMargin: 5
                 Layout.bottomMargin: 10
@@ -145,7 +149,7 @@ Rectangle {
 
             WizardMenuItem {
                 headerText: qsTr("Advanced mode") + translationManager.emptyString
-                bodyText: qsTr("Includes extra features like mining and message verification. The blockchain is downloaded to your computer.") + translationManager.emptyString
+                bodyText: qsTr("Send, receive and mine OPCA, and prove payments. The blockchain is downloaded to your computer, so your wallet checks everything itself.") + translationManager.emptyString
                 imageIcon: "qrc:///images/local-node-full.png"
 
                 onMenuClicked: {
