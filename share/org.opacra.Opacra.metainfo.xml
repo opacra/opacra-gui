@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>org.opacra.Opacra</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>BSD-3-Clause</project_license>
+    <content_rating type="oars-1.1"/>
+    <developer_name>Opacra</developer_name>
+    <categories>
+        <category>Network</category>
+        <category>Qt</category>
+        <category>Finance</category>
+        <category>Office</category>
+    </categories>
+    <name>Opacra Wallet</name>
+    <summary>Wallet for Opacra (OPCA), a private, CPU-mined coin</summary>
+
+    <description>
+        <p>Opacra is a private coin with its own blockchain, built on Monero's code. Every
+            payment hides the sender, the receiver and the amount.</p>
+        <p>This wallet sends and receives OPCA, mines with your processor, and lets you prove
+            a payment or a balance to someone you choose. Your 25 words are the only backup of
+            your wallet: write them down and keep them offline.</p>
+    </description>
+
+    <launchable type="desktop-id">org.opacra.Opacra.desktop</launchable>
+
+    <url type="homepage">https://opacra.org</url>
+    <url type="bugtracker">https://github.com/opacra/opacra/issues</url>
+
+    <releases>
+        <release version="<version>" date="<date>"/>
+    </releases>
+</component>

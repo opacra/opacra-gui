@@ -1,10 +1,10 @@
 [Desktop Entry]
-Name=Monero GUI
+Name=Opacra Wallet
 GenericName=Cryptocurrency wallet
-Comment=Monero GUI
-Exec=monero-wallet-gui
+Comment=Opacra Wallet
+Exec=opacra-wallet-gui
 Type=Application
 Terminal=false
 Categories=Network;Qt;Finance;Office;
-Icon=org.getmonero.Monero
+Icon=org.opacra.Opacra
 StartupNotify=true

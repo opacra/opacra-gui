@@ -49,10 +49,10 @@ Rectangle {
 
     function parseWalletRestoreUri(data) {
         var prefix = ""
-        if (data.indexOf("monero-wallet:") === 0)
-            prefix = "monero-wallet:"
-        else if (data.indexOf("monero_wallet:") === 0)
-            prefix = "monero_wallet:"
+        if (data.indexOf("opacra-wallet:") === 0)
+            prefix = "opacra-wallet:"
+        else if (data.indexOf("opacra_wallet:") === 0)
+            prefix = "opacra_wallet:"
         else
             return null
 
