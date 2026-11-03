@@ -3644,7 +3644,7 @@ votre contribution peut être nécessaire.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardCreateWallet3.qml" line="60"/>
-        <source>To be able to communicate with the Opacra network your wallet needs to be connected to a Opacra node. For best privacy it&apos;s recommended to run your own node.</source>
+        <source>To be able to communicate with the Opacra network your wallet needs to be connected to an Opacra node. For best privacy it&apos;s recommended to run your own node.</source>
         <translation>Pour pouvoir communiquer avec le réseau Opacra, votre portefeuille doit être connecté à un nœud Opacra. Pour une confidentialité optimale, il est recommandé d’exécuter votre propre node.</translation>
     </message>
 </context>
@@ -4102,7 +4102,7 @@ votre contribution peut être nécessaire.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet3.qml" line="63"/>
-        <source>To be able to communicate with the Opacra network your wallet needs to be connected to a Opacra node. For best privacy it&apos;s recommended to run your own node.
+        <source>To be able to communicate with the Opacra network your wallet needs to be connected to an Opacra node. For best privacy it&apos;s recommended to run your own node.
 
 If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
         <translation>Pour pouvoir communiquer avec le réseau Opacra, votre portefeuille doit être connecté à un nœud Opacra. Pour une confidentialité optimale, il est recommandé d’exécuter votre propre nœud.

@@ -3330,7 +3330,7 @@ potser se us requereix la participació.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardCreateWallet3.qml" line="60"/>
-        <source>To be able to communicate with the Opacra network your wallet needs to be connected to a Opacra node. For best privacy it&apos;s recommended to run your own node.</source>
+        <source>To be able to communicate with the Opacra network your wallet needs to be connected to an Opacra node. For best privacy it&apos;s recommended to run your own node.</source>
         <translation>Per poder establir comunicació amb la xarxa Opacra cal que el vostre portamonedes estigui connectat a un node. Per una la millor privacitat es recomana executar el vostre propi node.</translation>
     </message>
 </context>
@@ -3764,7 +3764,7 @@ potser se us requereix la participació.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet3.qml" line="68"/>
-        <source>To be able to communicate with the Opacra network your wallet needs to be connected to a Opacra node. For best privacy it&apos;s recommended to run your own node.
+        <source>To be able to communicate with the Opacra network your wallet needs to be connected to an Opacra node. For best privacy it&apos;s recommended to run your own node.
 
 If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
         <translation>Per poder establir comunicació amb la xarxa Opacra cal que el vostre portamonedes estigui connectat a un node. Per una la millor privacitat es recomana executar el vostre propi node.

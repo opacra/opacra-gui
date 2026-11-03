@@ -5,10 +5,11 @@ include(CMakeDependentOption)
 
 message(STATUS "Initiating compile using CMake ${CMAKE_VERSION}")
 
-set(VERSION_MAJOR "18")
-set(VERSION_MINOR "5")
-set(VERSION_REVISION "4")
-set(VERSION "0.${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_REVISION}")
+# Opacra Wallet version (based on Monero GUI v0.18.5.4)
+set(VERSION_MAJOR "1")
+set(VERSION_MINOR "0")
+set(VERSION_REVISION "0")
+set(VERSION "${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_REVISION}")
 
 option(STATIC "Link libraries statically, requires static Qt")
 

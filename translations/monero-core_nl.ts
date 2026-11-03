@@ -3645,7 +3645,7 @@ invoer is wellicht vereist.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardCreateWallet3.qml" line="60"/>
-        <source>To be able to communicate with the Opacra network your wallet needs to be connected to a Opacra node. For best privacy it&apos;s recommended to run your own node.</source>
+        <source>To be able to communicate with the Opacra network your wallet needs to be connected to an Opacra node. For best privacy it&apos;s recommended to run your own node.</source>
         <translation>Om te kunnen communiceren met het Opacra-Netwerk moet je portemonnee verbonden zijn met een Opacra-node. Voor de beste privacy wordt het aanbevolen je eigen node te draaien.</translation>
     </message>
 </context>
@@ -4103,7 +4103,7 @@ invoer is wellicht vereist.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet3.qml" line="63"/>
-        <source>To be able to communicate with the Opacra network your wallet needs to be connected to a Opacra node. For best privacy it&apos;s recommended to run your own node.
+        <source>To be able to communicate with the Opacra network your wallet needs to be connected to an Opacra node. For best privacy it&apos;s recommended to run your own node.
 
 If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
         <translation>Om te kunnen communiceren met het Opacra netwerk dient uw portemonnee te worden verbonden met een Opacra node. Voor de beste privacy wordt het aangeraden dat je je eigen node draait.

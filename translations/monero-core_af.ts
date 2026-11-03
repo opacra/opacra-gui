@@ -3644,7 +3644,7 @@ u inset mag nodig wees.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardCreateWallet3.qml" line="60"/>
-        <source>To be able to communicate with the Opacra network your wallet needs to be connected to a Opacra node. For best privacy it&apos;s recommended to run your own node.</source>
+        <source>To be able to communicate with the Opacra network your wallet needs to be connected to an Opacra node. For best privacy it&apos;s recommended to run your own node.</source>
         <translation>Om met die Opacra netwerk te kommunikeer moet u beursie aan &apos;n Opacra nodus verbind wees. Vir die beste privaatheid word dit aanbeveel om u eie nodus te hardloop.</translation>
     </message>
 </context>
@@ -4102,7 +4102,7 @@ u inset mag nodig wees.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet3.qml" line="63"/>
-        <source>To be able to communicate with the Opacra network your wallet needs to be connected to a Opacra node. For best privacy it&apos;s recommended to run your own node.
+        <source>To be able to communicate with the Opacra network your wallet needs to be connected to an Opacra node. For best privacy it&apos;s recommended to run your own node.
 
 If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
         <translation>Om met die Opacra netwerk te kan kommunikeer moet u beursie aan &apos;n Opacra nodus verbind wees. Vir die beste privaatheid word die gebruik van u eie nodus aanbeveel.

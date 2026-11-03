@@ -3644,7 +3644,7 @@ your input may be required.</source>
     </message>
     <message>
         <location filename="../wizard/WizardCreateWallet3.qml" line="60"/>
-        <source>To be able to communicate with the Opacra network your wallet needs to be connected to a Opacra node. For best privacy it&apos;s recommended to run your own node.</source>
+        <source>To be able to communicate with the Opacra network your wallet needs to be connected to an Opacra node. For best privacy it&apos;s recommended to run your own node.</source>
         <translation>Για να μπορείτε να επικοινωνείτε με το δίκτυο Opacra, το πορτοφόλι σας πρέπει να είναι συνδεδεμένο σε κόμβο Opacra. Για καλύτερο απόρρητο, συνιστάται να τρέξετε τον δικό σας κόμβο.</translation>
     </message>
 </context>
@@ -4102,7 +4102,7 @@ your input may be required.</source>
     </message>
     <message>
         <location filename="../wizard/WizardRestoreWallet3.qml" line="63"/>
-        <source>To be able to communicate with the Opacra network your wallet needs to be connected to a Opacra node. For best privacy it&apos;s recommended to run your own node.
+        <source>To be able to communicate with the Opacra network your wallet needs to be connected to an Opacra node. For best privacy it&apos;s recommended to run your own node.
 
 If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
         <translation>Για να μπορείτε να επικοινωνείτε με το δίκτυο Opacra, το πορτοφόλι σας πρέπει να είναι συνδεδεμένο σε κόμβο Opacra. Για καλύτερο απόρρητο, συνιστάται να τρέξετε τον δικό σας κόμβο.
