@@ -285,9 +285,8 @@ Rectangle {
             onClicked: {
                 persistentSettings.proxyEnabled = !persistentSettings.proxyEnabled;
             }
-            text: qsTr("Socks5 proxy (%1%2)")
-                .arg(appWindow.walletMode >= 2 ? qsTr("remote node connections, ") : "")
-                .arg(qsTr("updates downloading, fetching price sources")) + translationManager.emptyString
+            // Opacra: no update downloads or price sources, so only remote node connections go through it
+            text: qsTr("Socks5 proxy (remote node connections, e.g. through Tor)") + translationManager.emptyString
         }
 
         MoneroComponents.RemoteNodeEdit {
