@@ -2082,7 +2082,7 @@ ApplicationWindow {
             property alias text: content.text
             width: content.width + 12
             height: content.height + 17
-            color: "#b9a8ff"
+            color: "#ffc98b"
             //radius: 3
             visible:false;
 

@@ -59,7 +59,7 @@ Rectangle {
         width: parent.width
         height: parent.height
         z: parent.z + 1
-        color: "#b9a8ff"
+        color: "#ffc98b"
     }
 
     RowLayout {

@@ -78,7 +78,7 @@ ColumnLayout {
             labelText: {
                 const label = qsTr("Blockchain location (optional)");
                 if (persistentSettings.blockchainDataDir) {
-                    const style = "<style type='text/css'>a {cursor:pointer;text-decoration: none; color: #b9a8ff}</style>";
+                    const style = "<style type='text/css'>a {cursor:pointer;text-decoration: none; color: #ffc98b}</style>";
                     return label + style + "<a href='#'> (%1)</a>".arg(qsTr("Reset")) + translationManager.emptyString;
                 } else {
                     return label + translationManager.emptyString;

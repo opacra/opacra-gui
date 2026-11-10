@@ -293,7 +293,7 @@ Item {
                     font.pixelSize: 12
                     font.bold: false
                     color: "white"
-                    text: "<style type='text/css'>a {text-decoration: none; color: #b9a8ff; font-size: 12px;}</style>%1: %2 <a href='#'>(%3)</a>"
+                    text: "<style type='text/css'>a {text-decoration: none; color: #ffc98b; font-size: 12px;}</style>%1: %2 <a href='#'>(%3)</a>"
                         .arg(qsTr("Currently selected address"))
                         .arg(Utils.htmlEscape(addressLabel))
                         .arg(qsTr("Change")) + translationManager.emptyString

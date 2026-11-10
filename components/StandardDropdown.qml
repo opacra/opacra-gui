@@ -223,7 +223,7 @@ ColumnLayout {
                                 font.family: MoneroComponents.Style.fontRegular.name
                                 font.bold: false
                                 font.pixelSize: fontItemSize
-                                color: itemArea.containsMouse || index === columnid.currentIndex || itemArea.containsMouse ? "#b9a8ff" : "#FFFFFF"
+                                color: itemArea.containsMouse || index === columnid.currentIndex || itemArea.containsMouse ? "#ffc98b" : "#FFFFFF"
                                 text: qsTr(column1) + translationManager.emptyString
                             }
 
