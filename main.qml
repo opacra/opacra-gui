@@ -1519,7 +1519,7 @@ ApplicationWindow {
         property bool   is_trusted_daemon : false  // TODO: drop after v0.17.2.0 release
         property bool   is_recovering : false
         property bool   is_recovering_from_device : false
-        property bool   customDecorations : true
+        property bool   customDecorations : !isLinux // Opacra: the system title bar on Linux (the custom one can open off-screen and cannot be dragged on some desktops, e.g. WSL)
         property string daemonFlags
         property string p2poolFlags
         property int logLevel: 0
