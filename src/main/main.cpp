@@ -509,12 +509,9 @@ Verify update binary using 'shasum'-compatible (SHA256 algo) output signed by tw
         engine.rootContext()->setContextProperty("desktopFolder", desktopFolder);
 #endif
 
-    // Get default account name
-    QString accountName = qgetenv("USER"); // mac/linux
-    if (accountName.isEmpty())
-        accountName = qgetenv("USERNAME"); // Windows
-    if (accountName.isEmpty())
-        accountName = "My Opacra wallet";
+    // Default wallet name. Opacra: never the computer's login name, which would
+    // show in the title bar and in any screenshot people share.
+    const QString accountName = "My Opacra wallet";
 
     engine.rootContext()->setContextProperty("defaultAccountName", accountName);
     engine.rootContext()->setContextProperty("homePath", QDir::homePath());
