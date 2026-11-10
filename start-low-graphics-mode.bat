@@ -2,4 +2,4 @@
 
 set QMLSCENE_DEVICE=softwarecontext
 
-start /b opacra-wallet-gui.exe
+start "" /b "%~dp0opacra-wallet-gui.exe"
