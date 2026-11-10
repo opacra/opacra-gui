@@ -409,7 +409,7 @@ Rectangle {
                 small: true
                 text: qsTr("Donate to Opacra") + translationManager.emptyString
                 onClicked: {
-                    middlePanel.sendTo("888tNkZrPN6JsEgekjMnABU4TBzc2Dt29EPAvkRxbANsAnjyPbb3iQ1YBRk1UXcdRsiKc9dhwMVgN5S9cQUiyoogDavup3H", "", qsTr("Donation to Opacra Core Team") + translationManager.emptyString);
+                    middlePanel.sendTo("Pa2TDAomGjCM7y1s2S2APLcrGqhkddoyRgsx2Miqu2eRJKLcayF84VPea6SMcSDnxeg78smaG9fBeTpVj5EL1wbU81m8HT6rPW", "", qsTr("Donation to the Opacra development fund") + translationManager.emptyString);
                 }
             }
         }
