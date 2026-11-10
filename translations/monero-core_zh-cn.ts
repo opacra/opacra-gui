@@ -70,7 +70,7 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="93"/>
         <source>This makes it easier to send or receive Opacra and reduces errors when typing in addresses manually.</source>
-        <translation>这会使发送或接收Monero更加简单，并且减少在手动输入地址时发生的错误。</translation>
+        <translation>这会使发送或接收Opacra更加简单，并且减少在手动输入地址时发生的错误。</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="102"/>
@@ -640,7 +640,7 @@ It is recommended to enter passphrase on the hardware wallet for better security
     <message>
         <location filename="../pages/Keys.qml" line="85"/>
         <source>WARNING: Copying your seed to clipboard can expose you to malicious software, which may record your seed and steal your Opacra. Please write down your seed manually.</source>
-        <translation>警告：复制种子单词到剪贴板，可能会暴露给恶意软件，导致你的种子单词被记录，从而Monero被盗。请手工抄写下这些种子单词。</translation>
+        <translation>警告：复制种子单词到剪贴板，可能会暴露给恶意软件，导致你的种子单词被记录，从而Opacra被盗。请手工抄写下这些种子单词。</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="106"/>
@@ -2204,7 +2204,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="177"/>
         <source>Receive Opacra for your business, easily.</source>
-        <translation>让您的企业轻松使用门罗币</translation>
+        <translation>让您的企业轻松使用Opacra</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="178"/>
@@ -2232,7 +2232,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="103"/>
         <source>This page allows you to interact with the shared ring database. This database is meant for use by Opacra wallets as well as wallets from Opacra clones which reuse the Opacra keys.</source>
-        <translation>您在本页面可以操作共享的环形签名数据库。该数据库可被门罗币钱包和克隆钱包的密钥重用。</translation>
+        <translation>您在本页面可以操作共享的环形签名数据库。该数据库可被Opacra钱包和克隆钱包的密钥重用。</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="115"/>
@@ -2242,7 +2242,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="116"/>
         <source>In order to obscure which inputs in a Opacra transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Opacra uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Opacra project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Opacra clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>为了掩盖Monero交易中任何付款的去向，第三方不应知道环签名中每个输入和输出的对应关系。否则就会削弱环签名提供的保护作用。如果仅有一个输入之外的所有输入都已知，那么所有付款的去向将变得透明，这将使作为门罗币三个主要隐私保护层之一的环签名彻底无效。&lt;br&gt; 为帮助交易中避免出现这些问题，可以使用已知去向交易清单来避免在新交易中使用它们。这个清单由门罗币项目维护，可在 getmonero.org 网站上找到，您可以在此处导入此清单。 &lt;br&gt; 或者您可以自己扫描区块链 （以及复制了门罗币密钥的克隆钱包的区块链），使用monero-blockchain-mark-spent-outputs 工具创建已知的已用输出清单。 &lt;br&gt;</translation>
+        <translation>为了掩盖Opacra交易中任何付款的去向，第三方不应知道环签名中每个输入和输出的对应关系。否则就会削弱环签名提供的保护作用。如果仅有一个输入之外的所有输入都已知，那么所有付款的去向将变得透明，这将使作为Opacra三个主要隐私保护层之一的环签名彻底无效。&lt;br&gt; 为帮助交易中避免出现这些问题，可以使用已知去向交易清单来避免在新交易中使用它们。这个清单由Opacra项目维护，可在 opacra.org 网站上找到，您可以在此处导入此清单。 &lt;br&gt; 或者您可以自己扫描区块链 （以及复制了Opacra密钥的克隆钱包的区块链），使用opacra-blockchain-mark-spent-outputs 工具创建已知的已用输出清单。 &lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -2317,7 +2317,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="266"/>
         <source>This records rings used by outputs spent on Opacra on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>这个环签名已在密钥重用的Monero链上使用过, 因此重复使用同一个环签名可以避免隐私问题. </translation>
+        <translation>这个环签名已在密钥重用的Opacra链上使用过, 因此重复使用同一个环签名可以避免隐私问题. </translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="277"/>
@@ -2502,7 +2502,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/Sign.qml" line="341"/>
         <source>Enter the Opacra Address (example: 44AFFq5kSiGBoZ...)</source>
-        <translation>输入Monero地址 (例如: 44AFFq5kSiGBoZ...)</translation>
+        <translation>输入Opacra地址 (例如: 44AFFq5kSiGBoZ...)</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="351"/>
@@ -2899,7 +2899,7 @@ Confirmation message:
     <message>
         <location filename="../pages/Transfer.qml" line="985"/>
         <source>Spend OPCA from a cold (offline) wallet</source>
-        <translation>花费冷(线下)钱包里的门罗币</translation>
+        <translation>花费冷(线下)钱包里的Opacra</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="983"/>
@@ -3263,12 +3263,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../components/UpdateDialog.qml" line="77"/>
         <source>New Opacra version v%1 is available.</source>
-        <translation>门罗币新版本 v%1 可下载</translation>
+        <translation>Opacra新版本 v%1 可下载</translation>
     </message>
     <message>
         <location filename="../components/UpdateDialog.qml" line="98"/>
         <source>Please visit getmonero.org for details</source>
-        <translation>请访问getmonero.org了解详情</translation>
+        <translation>请访问opacra.org了解详情</translation>
     </message>
     <message>
         <location filename="../components/UpdateDialog.qml" line="102"/>
@@ -3641,7 +3641,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardCreateWallet3.qml" line="60"/>
         <source>To be able to communicate with the Opacra network your wallet needs to be connected to an Opacra node. For best privacy it&apos;s recommended to run your own node.</source>
-        <translation>为了能够与Monero网络通信，您的钱包需要连接到一个Monero节点。为了最好的隐私，建议运行您自己的节点。</translation>
+        <translation>为了能够与Opacra网络通信，您的钱包需要连接到一个Opacra节点。为了最好的隐私，建议运行您自己的节点。</translation>
     </message>
 </context>
 <context>
@@ -3702,7 +3702,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="152"/>
         <source>Additionally, you may specify a bootstrap node to use Opacra immediately.</source>
-        <translation>除此之外，你还可以指定一个引导节点来快速的使用Monero。</translation>
+        <translation>除此之外，你还可以指定一个引导节点来快速的使用Opacra。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="192"/>
@@ -3737,7 +3737,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardHome.qml" line="82"/>
         <source>Choose this option if this is your first time using Opacra.</source>
-        <translation>如果这是您第一次使用Monero，请选择此选项。</translation>
+        <translation>如果这是您第一次使用Opacra，请选择此选项。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="104"/>
@@ -3747,7 +3747,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardHome.qml" line="108"/>
         <source>Connect your hardware wallet to create a new Opacra wallet.</source>
-        <translation>连接您的硬件钱包，以创建一个新Monero钱包。</translation>
+        <translation>连接您的硬件钱包，以创建一个新Opacra钱包。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="127"/>
@@ -3813,7 +3813,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardModeBootstrap.qml" line="84"/>
         <source>Temporary use of remote nodes is useful in order to use Opacra immediately (hence the name bootstrap), however be aware that when using remote nodes (including with the bootstrap setting), nodes could track your IP address, track your &quot;restore height&quot; and associated block request data, and send you inaccurate information to learn more about transactions you make.</source>
-        <translation>远程模式可以让您立即使用门罗钱包，但需要注意：当使用远程模式 (包括引导模式)，节点可能会追踪您的IP地址，“钱包恢复高度”，以及相关的区块请求信息，且可以通过向您发送不正确的信息以获取更多关于您的交易信息。</translation>
+        <translation>远程模式可以让您立即使用Opacra钱包，但需要注意：当使用远程模式 (包括引导模式)，节点可能会追踪您的IP地址，“钱包恢复高度”，以及相关的区块请求信息，且可以通过向您发送不正确的信息以获取更多关于您的交易信息。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeBootstrap.qml" line="97"/>
@@ -3836,7 +3836,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="72"/>
         <source>This mode is ideal for managing small amounts of Opacra. You have access to basic features for making and managing transactions. It will automatically connect to the Opacra network so you can start using Opacra immediately.</source>
-        <translation>该模式非常适合管理少量的Monero。您可以访问用于创建和管理交易的基本功能。它会自动连接到Monero网络，所以您可以立即开始使用Monero。</translation>
+        <translation>该模式非常适合管理少量的Opacra。您可以访问用于创建和管理交易的基本功能。它会自动连接到Opacra网络，所以您可以立即开始使用Opacra。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="85"/>
@@ -4101,7 +4101,7 @@ your input may be required.</source>
         <source>To be able to communicate with the Opacra network your wallet needs to be connected to an Opacra node. For best privacy it&apos;s recommended to run your own node.
 
 If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation>你的钱包需要与门罗币节点连接后，才能和门罗币网络发生通讯。处于最佳隐私考虑，推荐你使用自己运行的节点。
+        <translation>你的钱包需要与Opacra节点连接后，才能和Opacra网络发生通讯。处于最佳隐私考虑，推荐你使用自己运行的节点。
 
 如果你没有亲自运行节点的选项，也可以与一个远程节点相连。</translation>
     </message>
@@ -4339,7 +4339,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../main.qml" line="1055"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>这个地址接收了 %1 个Monero, 并通过 %2 次的确认. </translation>
+        <translation>这个地址接收了 %1 个Opacra, 并通过 %2 次的确认. </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1066"/>
@@ -4496,7 +4496,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../main.qml" line="1052"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>这个地址将收到 %1 个monero币, 但这笔交易尚未被矿工确认</translation>
+        <translation>这个地址将收到 %1 个Opacra, 但这笔交易尚未被矿工确认</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1059"/>

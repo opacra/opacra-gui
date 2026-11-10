@@ -1829,7 +1829,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="410"/>
         <source>Donate to Opacra</source>
-        <translation>मोनेरो के लिए दान करें</translation>
+        <translation>Opacra के लिए दान करें</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="412"/>
@@ -2241,7 +2241,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="116"/>
         <source>In order to obscure which inputs in a Opacra transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Opacra uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Opacra project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Opacra clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>अस्पष्ट लेन-देन में कौन से इनपुट खर्च किए जा रहे हैं, यह अस्पष्ट करने के लिए, किसी तीसरे पक्ष को यह बताने में सक्षम नहीं होना चाहिए कि एक अंगूठी में कौन से इनपुट पहले से ही खर्च किए जाने के लिए जाने जाते हैं। ऐसा करने में सक्षम होने के कारण रिंग सिग्नेचर द्वारा वहन की जाने वाली सुरक्षा कमजोर होगी। यदि सभी लेकिन इनपुटों में से एक को पहले से ही खर्च करने के लिए जाना जाता है, तो वास्तव में खर्च किया जा रहा इनपुट स्पष्ट हो जाता है, जिससे रिंग सिग्नेचर के प्रभाव को कम कर दिया जाता है, गोपनीयता सुरक्षा की तीन मुख्य परतों में से एक मोनरो का उपयोग होता है। &lt;br&gt; लेनदेन से बचने में मदद करने के लिए उन आदानों, ज्ञात खर्चों की एक सूची का उपयोग नए लेनदेन में उपयोग करने से बचने के लिए किया जा सकता है। ऐसी सूची को मोनरो परियोजना द्वारा बनाए रखा गया है और यह getmonero.org वेबसाइट पर उपलब्ध है, और आप यहां इस सूची को आयात कर सकते हैं। &lt;br&gt; वैकल्पिक रूप से, आप ब्लॉकचैन (और कुंजी-पुन: उपयोग करने वाले मोनोरो क्लोन के ब्लॉकचेन को स्वयं स्कैन कर सकते हैं) मोनोरो-ब्लॉकचैन-मार्क-बिताए-आउटपुट टूल ज्ञात खर्च किए गए आउटपुट की एक सूची बनाने के लिए। &lt;br&gt;</translation>
+        <translation>अस्पष्ट लेन-देन में कौन से इनपुट खर्च किए जा रहे हैं, यह अस्पष्ट करने के लिए, किसी तीसरे पक्ष को यह बताने में सक्षम नहीं होना चाहिए कि एक अंगूठी में कौन से इनपुट पहले से ही खर्च किए जाने के लिए जाने जाते हैं। ऐसा करने में सक्षम होने के कारण रिंग सिग्नेचर द्वारा वहन की जाने वाली सुरक्षा कमजोर होगी। यदि सभी लेकिन इनपुटों में से एक को पहले से ही खर्च करने के लिए जाना जाता है, तो वास्तव में खर्च किया जा रहा इनपुट स्पष्ट हो जाता है, जिससे रिंग सिग्नेचर के प्रभाव को कम कर दिया जाता है, गोपनीयता सुरक्षा की तीन मुख्य परतों में से एक मोनरो का उपयोग होता है। &lt;br&gt; लेनदेन से बचने में मदद करने के लिए उन आदानों, ज्ञात खर्चों की एक सूची का उपयोग नए लेनदेन में उपयोग करने से बचने के लिए किया जा सकता है। ऐसी सूची को मोनरो परियोजना द्वारा बनाए रखा गया है और यह opacra.org वेबसाइट पर उपलब्ध है, और आप यहां इस सूची को आयात कर सकते हैं। &lt;br&gt; वैकल्पिक रूप से, आप ब्लॉकचैन (और कुंजी-पुन: उपयोग करने वाले मोनोरो क्लोन के ब्लॉकचेन को स्वयं स्कैन कर सकते हैं) मोनोरो-ब्लॉकचैन-मार्क-बिताए-आउटपुट टूल ज्ञात खर्च किए गए आउटपुट की एक सूची बनाने के लिए। &lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -2311,12 +2311,12 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>In order to avoid nullifying the protection afforded by Opacra&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Opacra clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Opacra and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Opacra clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Opacra safely.&lt;br&gt;If you do not use a key-reusing Opacra clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>मोनेरो के रिंग हस्ताक्षरों द्वारा वहन की जाने वाली सुरक्षा को शून्य करने से बचने के लिए, विभिन्न ब्लॉकेज पर अलग-अलग रिंगों के साथ एक आउटपुट खर्च नहीं किया जाना चाहिए। हालांकि यह आम तौर पर चिंता का विषय नहीं है, यह तब बन सकता है जब एक प्रमुख-पुन: उपयोग करने वाला मोनरो क्लोन आपको मौजूदा आउटपुट खर्च करने की अनुमति देता है। इस मामले में, आपको यह सुनिश्चित करने की आवश्यकता है कि यह मौजूदा आउटपुट दोनों श्रृंखलाओं पर एक ही रिंग का उपयोग करता है। &lt;br&gt; यह स्वतः ही मोनेरो और किसी भी कुंजी-पुन: उपयोग करने वाले सॉफ़्टवेयर द्वारा किया जाएगा, जो आपकी गोपनीयता को सक्रिय रूप से छीनने का प्रयास नहीं कर रहा है। &lt;br&gt;। यदि आप एक कुंजी-पुन: उपयोग करने वाले मोनेरो क्लोन का उपयोग कर रहे हैं, और इस क्लोन में यह सुरक्षा शामिल नहीं है, तो आप अभी भी यह सुनिश्चित कर सकते हैं कि आपके लेनदेन को पहले क्लोन पर खर्च करके संरक्षित किया जाता है, फिर इस पृष्ठ पर मैन्युअल रूप से अंगूठी जोड़ते हैं, जो तब आपको अनुमति देता है अपने Opacra को सुरक्षित रूप से व्यतीत करें। &lt;br&gt; यदि आप इन सुरक्षा सुविधाओं के बिना एक कुंजी-पुन: उपयोग करने वाले Opacra क्लोन का उपयोग नहीं करते हैं, तो आपको कुछ भी करने की आवश्यकता नहीं है क्योंकि यह सभी स्वचालित है। &lt;br&gt;</translation>
+        <translation>Opacra के रिंग हस्ताक्षरों द्वारा वहन की जाने वाली सुरक्षा को शून्य करने से बचने के लिए, विभिन्न ब्लॉकेज पर अलग-अलग रिंगों के साथ एक आउटपुट खर्च नहीं किया जाना चाहिए। हालांकि यह आम तौर पर चिंता का विषय नहीं है, यह तब बन सकता है जब एक प्रमुख-पुन: उपयोग करने वाला मोनरो क्लोन आपको मौजूदा आउटपुट खर्च करने की अनुमति देता है। इस मामले में, आपको यह सुनिश्चित करने की आवश्यकता है कि यह मौजूदा आउटपुट दोनों श्रृंखलाओं पर एक ही रिंग का उपयोग करता है। &lt;br&gt; यह स्वतः ही Opacra और किसी भी कुंजी-पुन: उपयोग करने वाले सॉफ़्टवेयर द्वारा किया जाएगा, जो आपकी गोपनीयता को सक्रिय रूप से छीनने का प्रयास नहीं कर रहा है। &lt;br&gt;। यदि आप एक कुंजी-पुन: उपयोग करने वाले Opacra क्लोन का उपयोग कर रहे हैं, और इस क्लोन में यह सुरक्षा शामिल नहीं है, तो आप अभी भी यह सुनिश्चित कर सकते हैं कि आपके लेनदेन को पहले क्लोन पर खर्च करके संरक्षित किया जाता है, फिर इस पृष्ठ पर मैन्युअल रूप से अंगूठी जोड़ते हैं, जो तब आपको अनुमति देता है अपने Opacra को सुरक्षित रूप से व्यतीत करें। &lt;br&gt; यदि आप इन सुरक्षा सुविधाओं के बिना एक कुंजी-पुन: उपयोग करने वाले Opacra क्लोन का उपयोग नहीं करते हैं, तो आपको कुछ भी करने की आवश्यकता नहीं है क्योंकि यह सभी स्वचालित है। &lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="266"/>
         <source>This records rings used by outputs spent on Opacra on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>यह रिकॉर्ड एक महत्वपूर्ण पुन: उपयोग श्रृंखला पर मोनेरो पर खर्च किए गए आउटपुट द्वारा उपयोग किए गए छल्ले हैं, ताकि गोपनीयता की समस्याओं से बचने के लिए उसी अंगूठी का पुन: उपयोग किया जा सके।</translation>
+        <translation>यह रिकॉर्ड एक महत्वपूर्ण पुन: उपयोग श्रृंखला पर Opacra पर खर्च किए गए आउटपुट द्वारा उपयोग किए गए छल्ले हैं, ताकि गोपनीयता की समस्याओं से बचने के लिए उसी अंगूठी का पुन: उपयोग किया जा सके।</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="277"/>
@@ -2836,7 +2836,7 @@ Confirmation message:
     <message>
         <location filename="../pages/Transfer.qml" line="1071"/>
         <source>Opacra sent successfully</source>
-        <translation>मोनेरो सफलतापूर्वक भेजे गए</translation>
+        <translation>Opacra सफलतापूर्वक भेजे गए</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="415"/>
@@ -3260,12 +3260,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../components/UpdateDialog.qml" line="77"/>
         <source>New Opacra version v%1 is available.</source>
-        <translation>नया मोनेरो संस्करण v%1 उपलब्ध है।</translation>
+        <translation>नया Opacra संस्करण v%1 उपलब्ध है।</translation>
     </message>
     <message>
         <location filename="../components/UpdateDialog.qml" line="98"/>
         <source>Please visit getmonero.org for details</source>
-        <translation>विवरण के लिए कृपया getmonero.org पर जाएं</translation>
+        <translation>विवरण के लिए कृपया opacra.org पर जाएं</translation>
     </message>
     <message>
         <location filename="../components/UpdateDialog.qml" line="102"/>
@@ -4452,12 +4452,12 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../main.qml" line="1052"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>इस पते पर% 1 मोनेरो प्राप्त हुए, लेकिन लेनदेन अभी तक खनन नहीं हुआ है</translation>
+        <translation>इस पते पर% 1 Opacra प्राप्त हुए, लेकिन लेनदेन अभी तक खनन नहीं हुआ है</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1055"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>इस पते को %1 मोनेरो मिले, %2 पुष्टिकरण के साथ।</translation>
+        <translation>इस पते को %1 Opacra मिले, %2 पुष्टिकरण के साथ।</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1059"/>

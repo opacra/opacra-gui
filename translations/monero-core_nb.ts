@@ -2241,7 +2241,7 @@ Du kan endre passordet i lommebok-innstillingene.</translation>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="116"/>
         <source>In order to obscure which inputs in a Opacra transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Opacra uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Opacra project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Opacra clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>For å tilsløre hvilke inndata i en Opacra-transaksjon som brukes, vil en tredjepart ikke være i stand til å vite hvilke inndata i en ring som allerede er brukt. Å vite dette ville ha svekket beskyttelsen som ringsignaturer gir. Hvis det er kjent at alle bortsett fra én av inndataene allerede er brukt, vil inndataene som allerede er brukt komme tydelig frem, noe som ugyldiggjør effekten av ringsignaturer, som er én av de tre hovedlagene av personvernbeskyttelse som Opacra bruker.&lt;br&gt;For å bidra til at transaksjonene unngår disse inndataene, kan en liste av kjente inndata brukes for å unngå bruke dem i nye transaksjoner. En slik liste vedlikeholdes av Opacra-prosjektet og er tilgjengelig på getmonero.org-nettsiden. Du kan importere denne listen her.&lt;br&gt;Alternativt kan du skanne blokkjeden (og blokkjeden av Opacra-kloner som gjenbruker nøkler) på egenhånd ved å bruke «monero-blockchain-mark-spent-outputs»-verktøyet for å opprette en liste over kjente, brukte utdata.&lt;br&gt;</translation>
+        <translation>For å tilsløre hvilke inndata i en Opacra-transaksjon som brukes, vil en tredjepart ikke være i stand til å vite hvilke inndata i en ring som allerede er brukt. Å vite dette ville ha svekket beskyttelsen som ringsignaturer gir. Hvis det er kjent at alle bortsett fra én av inndataene allerede er brukt, vil inndataene som allerede er brukt komme tydelig frem, noe som ugyldiggjør effekten av ringsignaturer, som er én av de tre hovedlagene av personvernbeskyttelse som Opacra bruker.&lt;br&gt;For å bidra til at transaksjonene unngår disse inndataene, kan en liste av kjente inndata brukes for å unngå bruke dem i nye transaksjoner. En slik liste vedlikeholdes av Opacra-prosjektet og er tilgjengelig på opacra.org-nettsiden. Du kan importere denne listen her.&lt;br&gt;Alternativt kan du skanne blokkjeden (og blokkjeden av Opacra-kloner som gjenbruker nøkler) på egenhånd ved å bruke «opacra-blockchain-mark-spent-outputs»-verktøyet for å opprette en liste over kjente, brukte utdata.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -2311,7 +2311,7 @@ Du kan endre passordet i lommebok-innstillingene.</translation>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>In order to avoid nullifying the protection afforded by Opacra&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Opacra clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Opacra and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Opacra clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Opacra safely.&lt;br&gt;If you do not use a key-reusing Opacra clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>For å unngå å ugyldiggjøre beskyttelsen som gis av Moneros ringsignaturer, bør en utdata ikke brukes med forskjellige ringer på forskjellige blokkjeder. Dette er normalt ikke et problem, men det kan bli et når en Opacra-klone som gjenbruker ringer lar deg forbruke eksisterende utdata. I dette tilfellet må du påse at disse eksisterende utdataene bruker den samme ringen på begge kjedene.&lt;br&gt;Dette vil gjøres automatisk av Opacra, og av en eventuell nøkkelgjenbruks-programvare som ikke aktivt prøver å frarøve deg personvernet ditt.&lt;br&gt;Hvis du også bruker en Opacra-klone med nøkkelgjenbruk og denne beskyttelsen ikke er inkludert i denne klonen, kan du fremdeles påse at transaksjonene er beskyttet ved å først forbruke på klonen og deretter legge til ringen på denne siden, som lar bruke dine Opacra på en trygg måte.&lt;br&gt;Hvis du ikke bruker en Opacra-klone med nøkkelgjenbruk uten disse sikkerhetsvalgene, trenger du ikke du å gjøre noe da alt gjøres automatisk.&lt;br&gt;</translation>
+        <translation>For å unngå å ugyldiggjøre beskyttelsen som gis av Opacras ringsignaturer, bør en utdata ikke brukes med forskjellige ringer på forskjellige blokkjeder. Dette er normalt ikke et problem, men det kan bli et når en Opacra-klone som gjenbruker ringer lar deg forbruke eksisterende utdata. I dette tilfellet må du påse at disse eksisterende utdataene bruker den samme ringen på begge kjedene.&lt;br&gt;Dette vil gjøres automatisk av Opacra, og av en eventuell nøkkelgjenbruks-programvare som ikke aktivt prøver å frarøve deg personvernet ditt.&lt;br&gt;Hvis du også bruker en Opacra-klone med nøkkelgjenbruk og denne beskyttelsen ikke er inkludert i denne klonen, kan du fremdeles påse at transaksjonene er beskyttet ved å først forbruke på klonen og deretter legge til ringen på denne siden, som lar bruke dine Opacra på en trygg måte.&lt;br&gt;Hvis du ikke bruker en Opacra-klone med nøkkelgjenbruk uten disse sikkerhetsvalgene, trenger du ikke du å gjøre noe da alt gjøres automatisk.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="266"/>
@@ -3004,7 +3004,7 @@ Confirmation message:
     <message>
         <location filename="../pages/Transfer.qml" line="1071"/>
         <source>Opacra sent successfully</source>
-        <translation>Moneroene er sendt</translation>
+        <translation>Opacraene er sendt</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="1090"/>
@@ -4343,7 +4343,7 @@ Hvis du ikke har muligheten til å kjøre din egen node, kan du velge å koble t
     <message>
         <location filename="../main.qml" line="1055"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Denne adressen mottok %1 monero med %2 bekreftelse(r).</translation>
+        <translation>Denne adressen mottok %1 opacra med %2 bekreftelse(r).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1066"/>
@@ -4500,7 +4500,7 @@ Hvis du ikke har muligheten til å kjøre din egen node, kan du velge å koble t
     <message>
         <location filename="../main.qml" line="1052"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Denne adressen mottok %1 monero, men transaksjonen er enda ikke utvunnet</translation>
+        <translation>Denne adressen mottok %1 opacra, men transaksjonen er enda ikke utvunnet</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1059"/>

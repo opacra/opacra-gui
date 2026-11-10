@@ -2204,7 +2204,7 @@ U kunt het wachtwoord wijzigen in de portemonnee-instellingen.</translation>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="177"/>
         <source>Receive Opacra for your business, easily.</source>
-        <translation>Ontvang met gemak monero voor uw bedrijf.</translation>
+        <translation>Ontvang met gemak opacra voor uw bedrijf.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="178"/>
@@ -2243,7 +2243,7 @@ U kunt het wachtwoord wijzigen in de portemonnee-instellingen.</translation>
         <location filename="../pages/SharedRingDB.qml" line="116"/>
         <source>In order to obscure which inputs in a Opacra transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Opacra uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Opacra project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Opacra clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
         <translatorcomment>Nobody who is stupid enough to use MoneroV will be smart enough to understand this.</translatorcomment>
-        <translation>Om te verbergen welke inputs in een Opacra-transactie worden uitgegeven, moet een derde niet kunnen zien welke inputs in een ring al zijn uitgegeven. Daardoor zou de privacybescherming van ring-handtekeningen worden verzwakt. Als alle inputs op één na al zijn uitgegeven, is zichtbaar welke input echt wordt uitgegeven. Dan hebben ring-handtekeningen, een van de drie beschermingslagen van Opacra, geen effect meer.&lt;br&gt;Met een lijst met bekende uitgegeven inputs kunt u voorkomen dat u ze in nieuwe transacties gebruikt. Deze lijst wordt onderhouden door het Opacra-project en is beschikbaar op de website getmonero.org. U kunt de lijst hier importeren.&lt;br&gt;Maar u kunt ook zelf de blockchain doorzoeken (en van Opacra gekopieerde blockchains waarop sleutels worden hergebruikt) met de tool monero-blockchain-mark-spent-outputs, om een lijst met bekende uitgegeven outputs te genereren.&lt;br&gt;</translation>
+        <translation>Om te verbergen welke inputs in een Opacra-transactie worden uitgegeven, moet een derde niet kunnen zien welke inputs in een ring al zijn uitgegeven. Daardoor zou de privacybescherming van ring-handtekeningen worden verzwakt. Als alle inputs op één na al zijn uitgegeven, is zichtbaar welke input echt wordt uitgegeven. Dan hebben ring-handtekeningen, een van de drie beschermingslagen van Opacra, geen effect meer.&lt;br&gt;Met een lijst met bekende uitgegeven inputs kunt u voorkomen dat u ze in nieuwe transacties gebruikt. Deze lijst wordt onderhouden door het Opacra-project en is beschikbaar op de website opacra.org. U kunt de lijst hier importeren.&lt;br&gt;Maar u kunt ook zelf de blockchain doorzoeken (en van Opacra gekopieerde blockchains waarop sleutels worden hergebruikt) met de tool opacra-blockchain-mark-spent-outputs, om een lijst met bekende uitgegeven outputs te genereren.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -3264,12 +3264,12 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
     <message>
         <location filename="../components/UpdateDialog.qml" line="77"/>
         <source>New Opacra version v%1 is available.</source>
-        <translation>Nieuwe monero versie v%1 is beschikbaar.</translation>
+        <translation>Nieuwe opacra versie v%1 is beschikbaar.</translation>
     </message>
     <message>
         <location filename="../components/UpdateDialog.qml" line="98"/>
         <source>Please visit getmonero.org for details</source>
-        <translation>Ga naar getmonero.org voor meer informatie</translation>
+        <translation>Ga naar opacra.org voor meer informatie</translation>
     </message>
     <message>
         <location filename="../components/UpdateDialog.qml" line="102"/>
@@ -3720,7 +3720,7 @@ invoer is wellicht vereist.</translation>
     <message>
         <location filename="../wizard/WizardHome.qml" line="66"/>
         <source>Welcome to Opacra</source>
-        <translation>Welkom bij monero</translation>
+        <translation>Welkom bij opacra</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="78"/>
@@ -4258,7 +4258,7 @@ Als het niet mogelijk is om uw eigen node te draaien, dan is er een optie om ver
     <message>
         <location filename="../main.qml" line="1052"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Dit adres heeft %1 monero ontvangen, maar de transactie is nog niet verwerkt</translation>
+        <translation>Dit adres heeft %1 opacra ontvangen, maar de transactie is nog niet verwerkt</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1059"/>
@@ -4355,7 +4355,7 @@ Als het niet mogelijk is om uw eigen node te draaien, dan is er een optie om ver
     <message>
         <location filename="../main.qml" line="1055"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Dit adres heeft %1 monero ontvangen, met %2 bevestiging(en).</translation>
+        <translation>Dit adres heeft %1 opacra ontvangen, met %2 bevestiging(en).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1066"/>

@@ -70,7 +70,7 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="93"/>
         <source>This makes it easier to send or receive Opacra and reduces errors when typing in addresses manually.</source>
-        <translation>Tio faciligas sendi aŭ ricevi MoneroN kaj reduktas erarojn dum tajpado de adresoj permane.</translation>
+        <translation>Tio faciligas sendi aŭ ricevi OpacraN kaj reduktas erarojn dum tajpado de adresoj permane.</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="102"/>
@@ -640,7 +640,7 @@ Estas rekomendita, ke entajpi pasfrazon sur la aparata monujo por pli bona sekur
     <message>
         <location filename="../pages/Keys.qml" line="85"/>
         <source>WARNING: Copying your seed to clipboard can expose you to malicious software, which may record your seed and steal your Opacra. Please write down your seed manually.</source>
-        <translation>ATENTU: Kopii vian semon en la poŝo malprotektas vin kontraŭ fiprogramoj, kiuj eble ŝtelos ĝin kaj viajn Monerojn. Bonvolu skribi vian semon sur papero.</translation>
+        <translation>ATENTU: Kopii vian semon en la poŝo malprotektas vin kontraŭ fiprogramoj, kiuj eble ŝtelos ĝin kaj viajn Opacrajn. Bonvolu skribi vian semon sur papero.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="106"/>
@@ -2291,7 +2291,7 @@ Vi povas ŝanĝi la pasvorton laŭ la monujo.</translation>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="116"/>
         <source>In order to obscure which inputs in a Opacra transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Opacra uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Opacra project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Opacra clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>Ĉar ni celas kaŝi kiujn enigojn de Monera transakcio elspeziĝas, neniu tria persono devas kapabli kompreni kiuj enigoj en ringo laŭscie jam elspeziĝis. Tiu kapablo malfortigus la ŝirmefikon de ringsubskriboj. Se iu ekscias ke ĉiuj enigoj, escepte de unu, jam elspeziĝis, tiam la enigo kiu fakte elspeziĝas aperas tuj. Tio nuligus la efekton de ringsubskriboj, unu el la tri plej gravaj privatecŝirmiloj uzitaj en Opacra.&lt;br&gt;Ekzistas listo de laŭscie elspezitaj enigoj, kiu permesas malhelpi ilian uzadon en transakcioj. Tiun liston bontenas la Opacra-projekto, kaj disponeblas ĉe la retejo getmonero.org, vi povas importi ĝin ĉi tien.&lt;br&gt;Alternative, vi povas mem skani la blokĉenon (kaj la blokĉenon de ŝlosilreuzanta Opacra-klonoj) uzante la Monerblokĉen-malakceptilon por krei liston de laŭscie elspezitaj eligoj.&lt;br&gt;</translation>
+        <translation>Ĉar ni celas kaŝi kiujn enigojn de Monera transakcio elspeziĝas, neniu tria persono devas kapabli kompreni kiuj enigoj en ringo laŭscie jam elspeziĝis. Tiu kapablo malfortigus la ŝirmefikon de ringsubskriboj. Se iu ekscias ke ĉiuj enigoj, escepte de unu, jam elspeziĝis, tiam la enigo kiu fakte elspeziĝas aperas tuj. Tio nuligus la efekton de ringsubskriboj, unu el la tri plej gravaj privatecŝirmiloj uzitaj en Opacra.&lt;br&gt;Ekzistas listo de laŭscie elspezitaj enigoj, kiu permesas malhelpi ilian uzadon en transakcioj. Tiun liston bontenas la Opacra-projekto, kaj disponeblas ĉe la retejo opacra.org, vi povas importi ĝin ĉi tien.&lt;br&gt;Alternative, vi povas mem skani la blokĉenon (kaj la blokĉenon de ŝlosilreuzanta Opacra-klonoj) uzante la Monerblokĉen-malakceptilon por krei liston de laŭscie elspezitaj eligoj.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -2316,7 +2316,7 @@ Vi povas ŝanĝi la pasvorton laŭ la monujo.</translation>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="266"/>
         <source>This records rings used by outputs spent on Opacra on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>Tio registras la ringojn kiuj uziĝis por elspezi Moneron sur ŝlosilreuzanta ĉeno, tiel ke la sama ringo uziĝu denove, por malhelpi privatecproblemojn.</translation>
+        <translation>Tio registras la ringojn kiuj uziĝis por elspezi Opacran sur ŝlosilreuzanta ĉeno, tiel ke la sama ringo uziĝu denove, por malhelpi privatecproblemojn.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="277"/>
@@ -2785,7 +2785,7 @@ Vi povas ŝanĝi la pasvorton laŭ la monujo.</translation>
     <message>
         <location filename="../pages/Transfer.qml" line="1071"/>
         <source>Opacra sent successfully</source>
-        <translation>Sukcese sendis Moneron</translation>
+        <translation>Sukcese sendis Opacran</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="1199"/>
@@ -3702,7 +3702,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="152"/>
         <source>Additionally, you may specify a bootstrap node to use Opacra immediately.</source>
-        <translation>Vi aldone povas precizigi eknodon por uzi Moneron tuj.</translation>
+        <translation>Vi aldone povas precizigi eknodon por uzi Opacran tuj.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="192"/>
@@ -3737,7 +3737,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardHome.qml" line="82"/>
         <source>Choose this option if this is your first time using Opacra.</source>
-        <translation>Elektu tiun opcion se vi uzas Moneron unuafoje.</translation>
+        <translation>Elektu tiun opcion se vi uzas Opacran unuafoje.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="104"/>
@@ -3836,7 +3836,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="72"/>
         <source>This mode is ideal for managing small amounts of Opacra. You have access to basic features for making and managing transactions. It will automatically connect to the Opacra network so you can start using Opacra immediately.</source>
-        <translation>Tiu moduso plej taŭgas por trakti malgrandajn sumojn de Opacra. Vi povas uzi bazajn ilojn por krei kaj pritrakti transakciojn. La simpla moduso aŭtomate konektiĝas kun la Opacra-reto, tiel ke vi povas uzi Moneron tuj.</translation>
+        <translation>Tiu moduso plej taŭgas por trakti malgrandajn sumojn de Opacra. Vi povas uzi bazajn ilojn por krei kaj pritrakti transakciojn. La simpla moduso aŭtomate konektiĝas kun la Opacra-reto, tiel ke vi povas uzi Opacran tuj.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="85"/>

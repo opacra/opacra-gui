@@ -634,12 +634,12 @@ It is recommended to enter passphrase on the hardware wallet for better security
     <message>
         <location filename="../pages/Keys.qml" line="62"/>
         <source>WARNING: Do not reuse your Opacra keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
-        <translation>ПРЕДУПРЕЖДЕНИЕ: Не използвайте повторно вашите Монеро ключове в друго разклонение, ОСВЕН ако това разклонение няма вградени смекчения при повторно използване на ключове. Ако ги използвате ще застрашите сигурността си</translation>
+        <translation>ПРЕДУПРЕЖДЕНИЕ: Не използвайте повторно вашите Opacra ключове в друго разклонение, ОСВЕН ако това разклонение няма вградени смекчения при повторно използване на ключове. Ако ги използвате ще застрашите сигурността си</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="85"/>
         <source>WARNING: Copying your seed to clipboard can expose you to malicious software, which may record your seed and steal your Opacra. Please write down your seed manually.</source>
-        <translation>ВНИМАНИЕ: Моля запишете кода на ръка. Ако имате вирус, копирането на секретния код може да го разкрие и така да бъде откраднато вашето Монеро.</translation>
+        <translation>ВНИМАНИЕ: Моля запишете кода на ръка. Ако имате вирус, копирането на секретния код може да го разкрие и така да бъде откраднато вашето Opacra.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="106"/>
@@ -1718,7 +1718,7 @@ Mining also gives you a small chance to earn some Opacra. Your computer will cre
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="102"/>
         <source>Embedded Opacra version: </source>
-        <translation>Вградена Монеро версия</translation>
+        <translation>Вградена Opacra версия</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="132"/>
@@ -2011,7 +2011,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="224"/>
         <source>Uses a third-party server to connect to the Opacra network. Less secure, but easier on your computer.</source>
-        <translation>Използва сървър на трети лица за да се свърже към мрежата на Монеро. По-малко сигурно, но изисква по-малко ресурси от компютъра Ви.</translation>
+        <translation>Използва сървър на трети лица за да се свърже към мрежата на Opacra. По-малко сигурно, но изисква по-малко ресурси от компютъра Ви.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="253"/>
@@ -2227,7 +2227,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="103"/>
         <source>This page allows you to interact with the shared ring database. This database is meant for use by Opacra wallets as well as wallets from Opacra clones which reuse the Opacra keys.</source>
-        <translation>Тази страница ви позволява да взаимодействате със споделената пръстенова база данни. Тази база данни е предназначена за употреба от Монеро портфейли както и клонинги на Монеро, които ползват повторно ключовете на Монеро.</translation>
+        <translation>Тази страница ви позволява да взаимодействате със споделената пръстенова база данни. Тази база данни е предназначена за употреба от Opacra портфейли както и клонинги на Opacra, които ползват повторно ключовете на Opacra.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="115"/>
@@ -2237,7 +2237,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="116"/>
         <source>In order to obscure which inputs in a Opacra transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Opacra uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Opacra project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Opacra clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>За да може да скрие кои входящи заявки в една транзакция на Монеро са похарчени, трети лица не бива да могат да разберат кои входящи заявки в пръстеновия подпис са вече похарчени. Ако могат, това би отслабило защитата на пръстеновите подписи. Ако се знае че са похарчени за всички освен една от входящите заявки, тогава реалната заявка става видима. По този начин се премахва ефекта от пръстеновите подписи - една от трите основни степени на защита на сигурността личните данни на Монеро.&lt;br&gt;За да спомогнат на транзакциите да избягват такива входящи заявки, може да се ползва списък с известни компрометирани заявки за да се избегне използването им в нови заявки. Такъв списък се поддържа от проекта Монеро и е достъпен на сайта getmonero.org и можете да го внесете тук.&lt;br&gt;А можете и да сканирате блокчейна (и блокчейна на използващите повторно ключове клонинги на Монеро) лично, използвайки инструментът монеро-блокчейн-mark-spent-outputs за да създадете списък с известни похарчени заявки.&lt;br&gt;</translation>
+        <translation>За да може да скрие кои входящи заявки в една транзакция на Opacra са похарчени, трети лица не бива да могат да разберат кои входящи заявки в пръстеновия подпис са вече похарчени. Ако могат, това би отслабило защитата на пръстеновите подписи. Ако се знае че са похарчени за всички освен една от входящите заявки, тогава реалната заявка става видима. По този начин се премахва ефекта от пръстеновите подписи - една от трите основни степени на защита на сигурността личните данни на Opacra.&lt;br&gt;За да спомогнат на транзакциите да избягват такива входящи заявки, може да се ползва списък с известни компрометирани заявки за да се избегне използването им в нови заявки. Такъв списък се поддържа от проекта Opacra и е достъпен на сайта opacra.org и можете да го внесете тук.&lt;br&gt;А можете и да сканирате блокчейна (и блокчейна на използващите повторно ключове клонинги на Opacra) лично, използвайки инструментът Opacra-блокчейн-mark-spent-outputs за да създадете списък с известни похарчени заявки.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -2287,7 +2287,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>In order to avoid nullifying the protection afforded by Opacra&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Opacra clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Opacra and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Opacra clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Opacra safely.&lt;br&gt;If you do not use a key-reusing Opacra clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>За да не отслабвате защитата предоставена от пръстеновите подписи които се използват в Монеро, изходящите заявки не бива да бъдат похарчвани с различни пръстени на различни блокчейни. Това не представлява проблем освен в случаите когато конкурентна мрежа, която е клонирала историята (блокчейна) на Монеро позволява похарчването на съществуващите изходящи заявки. В този случай е нужно да сте сигурни, че всяка изходяща заявка използва същите пръстени на двете мрежи.&lt;br&gt;Това е автоматично при Монеро и всеки друг софтуер (клонинг на Монеро), който не се опитва да разкрие личната ви информация.&lt;br&gt;Ако използвате такъв софтуер, и този софтуер не включва защитата описана тук, е възможно да се защитите като похарчите изходящите си заявки на чуждия софтуер първо, и после ръчно да въведете пръстена на тази страница. Това ще ви позволи да похарчите парите си безопасно.&lt;br&gt;Ако не използвате такъв чужд софтуер, или ако той включва защитата описана тук, няма нужда да правите нищо.&lt;br&gt;</translation>
+        <translation>За да не отслабвате защитата предоставена от пръстеновите подписи които се използват в Opacra, изходящите заявки не бива да бъдат похарчвани с различни пръстени на различни блокчейни. Това не представлява проблем освен в случаите когато конкурентна мрежа, която е клонирала историята (блокчейна) на Opacra позволява похарчването на съществуващите изходящи заявки. В този случай е нужно да сте сигурни, че всяка изходяща заявка използва същите пръстени на двете мрежи.&lt;br&gt;Това е автоматично при Opacra и всеки друг софтуер (клонинг на Opacra), който не се опитва да разкрие личната ви информация.&lt;br&gt;Ако използвате такъв софтуер, и този софтуер не включва защитата описана тук, е възможно да се защитите като похарчите изходящите си заявки на чуждия софтуер първо, и после ръчно да въведете пръстена на тази страница. Това ще ви позволи да похарчите парите си безопасно.&lt;br&gt;Ако не използвате такъв чужд софтуер, или ако той включва защитата описана тук, няма нужда да правите нищо.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="405"/>
@@ -2317,7 +2317,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="266"/>
         <source>This records rings used by outputs spent on Opacra on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>Това записва пръстените, използвани от изходящите заявки, похарчени в Монеро на верига с повторно ползване на ключовете, така че същият пръстен да се ползва повторно и да се избегнат проблеми със сигурността.</translation>
+        <translation>Това записва пръстените, използвани от изходящите заявки, похарчени в Opacra на верига с повторно ползване на ключовете, така че същият пръстен да се ползва повторно и да се избегнат проблеми със сигурността.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="277"/>
@@ -2497,7 +2497,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/Sign.qml" line="341"/>
         <source>Enter the Opacra Address (example: 44AFFq5kSiGBoZ...)</source>
-        <translation>Въведете Монеро Адрес (пример: 44AFFq5kSiGBoZ...)</translation>
+        <translation>Въведете Opacra Адрес (пример: 44AFFq5kSiGBoZ...)</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="351"/>
@@ -3000,7 +3000,7 @@ Confirmation message:
     <message>
         <location filename="../pages/Transfer.qml" line="1071"/>
         <source>Opacra sent successfully</source>
-        <translation>Монеро изратени успешно</translation>
+        <translation>Opacra изратени успешно</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="1090"/>
@@ -3697,7 +3697,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="152"/>
         <source>Additionally, you may specify a bootstrap node to use Opacra immediately.</source>
-        <translation>По желание, може да определите първоначален нод за да използвате Монеро веднага.</translation>
+        <translation>По желание, може да определите първоначален нод за да използвате Opacra веднага.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="192"/>
@@ -3732,7 +3732,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardHome.qml" line="82"/>
         <source>Choose this option if this is your first time using Opacra.</source>
-        <translation>Изберете тази опция ако използвате Монеро за първи път.</translation>
+        <translation>Изберете тази опция ако използвате Opacra за първи път.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="104"/>
@@ -3742,7 +3742,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardHome.qml" line="108"/>
         <source>Connect your hardware wallet to create a new Opacra wallet.</source>
-        <translation>Свържете хардуерното устройство за да създадете нов портфейл за Монеро.</translation>
+        <translation>Свържете хардуерното устройство за да създадете нов портфейл за Opacra.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="127"/>
@@ -3831,7 +3831,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="72"/>
         <source>This mode is ideal for managing small amounts of Opacra. You have access to basic features for making and managing transactions. It will automatically connect to the Opacra network so you can start using Opacra immediately.</source>
-        <translation>Този режим е пригоден за работа с малки суми. Позволява достъп до основните функции за създаване на транзакции. Ще ви свърже с мрежата автоматично за да можете да ползвате Монеро веднага.</translation>
+        <translation>Този режим е пригоден за работа с малки суми. Позволява достъп до основните функции за създаване на транзакции. Ще ви свърже с мрежата автоматично за да можете да ползвате Opacra веднага.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="85"/>
@@ -4334,7 +4334,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../main.qml" line="1055"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Този адрес получи %1 монеро с %2 потвърждение(я).</translation>
+        <translation>Този адрес получи %1 Opacra с %2 потвърждение(я).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1066"/>
@@ -4491,7 +4491,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../main.qml" line="1052"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Този адрес получи %1 монеро, но транзакцията все-още не е изкопана</translation>
+        <translation>Този адрес получи %1 Opacra, но транзакцията все-още не е изкопана</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1059"/>

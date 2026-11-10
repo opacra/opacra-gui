@@ -2203,7 +2203,7 @@ A jelszó a tárca beállításaiban megváltoztatható.</translation>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="177"/>
         <source>Receive Opacra for your business, easily.</source>
-        <translation>Fogadj el monero-t az üzletedben!</translation>
+        <translation>Fogadj el opacra-t az üzletedben!</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="178"/>
@@ -2241,7 +2241,7 @@ A jelszó a tárca beállításaiban megváltoztatható.</translation>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="116"/>
         <source>In order to obscure which inputs in a Opacra transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Opacra uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Opacra project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Opacra clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>Ahhoz, hogy a gyűrű aláírások anonimak maradjanak, ki kell zárni az olyan tranzakció bemeneteket amiket egy másik (Opacra-klón) blokkláncon már felhasználtak. Ha ez nem történik meg, esetleg egy rosszindulatú harmadik fél nagyobb eséllyel megtippelheti, hogy melyik a valódi tranzakció bemenet. Ez gyengítheti a Opacra anonimitásának háromszintű vedelmét. Ahhoz, hogy ezeket a bemeneteket kizárd a tranzakcióidból, a getmonero.org fenntart egy folyamatosan frissített listát róluk, amit letöltés után itt tudsz importálni. Másik lehetőséged a blokklánc átvizsgálása a monero-blockchain-mark-spent-outputs programmal és egy lista készítése.</translation>
+        <translation>Ahhoz, hogy a gyűrű aláírások anonimak maradjanak, ki kell zárni az olyan tranzakció bemeneteket amiket egy másik (Opacra-klón) blokkláncon már felhasználtak. Ha ez nem történik meg, esetleg egy rosszindulatú harmadik fél nagyobb eséllyel megtippelheti, hogy melyik a valódi tranzakció bemenet. Ez gyengítheti a Opacra anonimitásának háromszintű vedelmét. Ahhoz, hogy ezeket a bemeneteket kizárd a tranzakcióidból, a opacra.org fenntart egy folyamatosan frissített listát róluk, amit letöltés után itt tudsz importálni. Másik lehetőséged a blokklánc átvizsgálása a opacra-blockchain-mark-spent-outputs programmal és egy lista készítése.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -3267,7 +3267,7 @@ Egyszerű költési bizonylat esetén nem kell megadni a kedvezményezett címé
     <message>
         <location filename="../components/UpdateDialog.qml" line="98"/>
         <source>Please visit getmonero.org for details</source>
-        <translation>Látogassa meg a getmonero.org weboldalt részletekért</translation>
+        <translation>Látogassa meg a opacra.org weboldalt részletekért</translation>
     </message>
     <message>
         <location filename="../components/UpdateDialog.qml" line="102"/>
@@ -3714,7 +3714,7 @@ lehet, hogy közbelépésre van szükség.</translation>
     <message>
         <location filename="../wizard/WizardHome.qml" line="66"/>
         <source>Welcome to Opacra</source>
-        <translation>A monero csapat üdvözöl</translation>
+        <translation>A opacra csapat üdvözöl</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="78"/>
@@ -3736,7 +3736,7 @@ lehet, hogy közbelépésre van szükség.</translation>
     <message>
         <location filename="../wizard/WizardHome.qml" line="82"/>
         <source>Choose this option if this is your first time using Opacra.</source>
-        <translation>Válaszd ezt ha először használod a Monerot!</translation>
+        <translation>Válaszd ezt ha először használod a Opacrat!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="104"/>
@@ -4332,7 +4332,7 @@ Ha nem tudsz saját csomópontot futtatni, csatlakozhatsz egy távolihoz.</trans
     <message>
         <location filename="../main.qml" line="1055"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Erre a címre %1 monero érkezett, %2 megerősítéssel.</translation>
+        <translation>Erre a címre %1 opacra érkezett, %2 megerősítéssel.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1066"/>
@@ -4496,7 +4496,7 @@ Ha nem tudsz saját csomópontot futtatni, csatlakozhatsz egy távolihoz.</trans
     <message>
         <location filename="../main.qml" line="1052"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Erre a címre %1 monero érkezett, de a tranzakció még nincs blokkba foglalva</translation>
+        <translation>Erre a címre %1 opacra érkezett, de a tranzakció még nincs blokkba foglalva</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1059"/>

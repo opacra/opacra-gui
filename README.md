@@ -7,8 +7,9 @@ Send, receive and mine OPCA, and prove payments, with the wallet running its own
 Opacra node: the blockchain is downloaded to your computer, so your wallet checks
 everything itself and doesn't depend on anyone else's server.
 
-**Download:** [opacra.org](https://opacra.org) (Windows and Linux). Check every download
-against the signed `SHA256SUMS` on the release page before running it.
+**Download:** [opacra.org](https://opacra.org) (Windows; on Linux, build it from source as
+below). Check every download against the signed `SHA256SUMS` on the release page before
+running it.
 
 Copyright (c) 2026 The Opacra Project. Portions Copyright (c) 2014-2024 The Monero Project.
 BSD-3-Clause, see [LICENSE](LICENSE). This wallet is a fork of the
@@ -22,8 +23,9 @@ below Opacra's own commits.
 - Opacra's name, look and units (OPCA; addresses `Pa…`, `Ps…`, `Pi…`), 30-second blocks.
 - Runs the Opacra node (`opacrad`, from [opacra/opacra](https://github.com/opacra/opacra),
   included here as the `monero` submodule) with Opacra's own ports and data folder.
-- Full-node only for now (no remote-node mode until public Opacra nodes exist). New nodes
-  keep the whole blockchain (no pruning) by default while the chain is small.
+- Runs your own full node (no "simple mode" using public remote nodes until such nodes
+  exist; you can still point it at a node you run elsewhere). New nodes keep the whole
+  blockchain (no pruning) by default while the chain is small.
 - No price feeds, no update checks, no P2Pool. Solo mining is built in; pools are listed at
   [opacra.org/start.html](https://opacra.org/start.html).
 - Hardware wallets are hidden (not yet tested with Opacra).
@@ -34,7 +36,8 @@ below Opacra's own commits.
 ## Status
 
 Version 1.0.0. Tested privately on Opacra mainnet (Windows and Linux): create and restore
-wallets, receive, send, close and reopen, solo mining, payment proofs. Opacra is
+wallets, receive, send, close and reopen, solo mining. Interface translations are Monero's,
+updated to Opacra's name; text that changed for Opacra shows in English. Opacra is
 experimental software: it has been reviewed by an experienced cryptocurrency developer
 but has not had a professional security audit. Use it at your own risk.
 

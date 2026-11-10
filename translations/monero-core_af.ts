@@ -2242,7 +2242,7 @@ Die wagwoord kan verander word by die beursie instellings.</translation>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="116"/>
         <source>In order to obscure which inputs in a Opacra transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Opacra uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Opacra project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Opacra clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>Ten einde te verduister watter uitsette in &apos;n Opacra transaksie gestuur word mag &apos;n derdeparty nie kan aflei watter insette in &apos;n ring bekend is as reeds-spandeer nie. Só &apos;n afleiding sal die beskerming van ringtekeninge verswak. Indien almal behalwe &apos;n enkele inset bekend is as reeds-spandeer, is dit dan duidelik watter inset in werklikheid spandeer word en dus word die ringtekeninge se waarde as een van die drie vlakker van privaatheidsbeskerming in Opacra vernietig.&lt;br&gt;Om te help dat transaksies sulke insette vermy, kan &apos;n lys van bekende spandeerde insette as verwysing gebruik word vir nuwe transaksies. So &apos;n lys word bygehou deur die Opacra projek en is beskikbaar by die getmonero.org webtuiste en kan hier ingevoer word.&lt;br&gt;Alternatiewelik kan u self die blokketting (en die van sleutelhergebruikende Opacra klone) deursoek met die monero-blockchain-mark-spent-outputs nutsmiddel om &apos;n lys te skep.&lt;br&gt;</translation>
+        <translation>Ten einde te verduister watter uitsette in &apos;n Opacra transaksie gestuur word mag &apos;n derdeparty nie kan aflei watter insette in &apos;n ring bekend is as reeds-spandeer nie. Só &apos;n afleiding sal die beskerming van ringtekeninge verswak. Indien almal behalwe &apos;n enkele inset bekend is as reeds-spandeer, is dit dan duidelik watter inset in werklikheid spandeer word en dus word die ringtekeninge se waarde as een van die drie vlakker van privaatheidsbeskerming in Opacra vernietig.&lt;br&gt;Om te help dat transaksies sulke insette vermy, kan &apos;n lys van bekende spandeerde insette as verwysing gebruik word vir nuwe transaksies. So &apos;n lys word bygehou deur die Opacra projek en is beskikbaar by die opacra.org webtuiste en kan hier ingevoer word.&lt;br&gt;Alternatiewelik kan u self die blokketting (en die van sleutelhergebruikende Opacra klone) deursoek met die opacra-blockchain-mark-spent-outputs nutsmiddel om &apos;n lys te skep.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -3268,7 +3268,7 @@ In die geval van &apos;n Spandeer Bewys, is die ontvangersadres nie benodig nie.
     <message>
         <location filename="../components/UpdateDialog.qml" line="98"/>
         <source>Please visit getmonero.org for details</source>
-        <translation>Besoek getmonero.org vir besonderhede</translation>
+        <translation>Besoek opacra.org vir besonderhede</translation>
     </message>
     <message>
         <location filename="../components/UpdateDialog.qml" line="102"/>
@@ -4344,7 +4344,7 @@ As u nie die opsie het om u eie nodus te gebruik nie, bly daar &apos;n opsie om 
     <message>
         <location filename="../main.qml" line="1055"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Hierdie adres het %1 monero ontvang, met %2 bevestiging(s).</translation>
+        <translation>Hierdie adres het %1 opacra ontvang, met %2 bevestiging(s).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1066"/>
@@ -4501,7 +4501,7 @@ As u nie die opsie het om u eie nodus te gebruik nie, bly daar &apos;n opsie om 
     <message>
         <location filename="../main.qml" line="1052"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Hierdie adres het %1 monero ontvag, maar die transaksie is nog nie gemyn nie</translation>
+        <translation>Hierdie adres het %1 opacra ontvag, maar die transaksie is nog nie gemyn nie</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1059"/>

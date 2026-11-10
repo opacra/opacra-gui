@@ -639,7 +639,7 @@ It is recommended to enter passphrase on the hardware wallet for better security
     <message>
         <location filename="../pages/Keys.qml" line="85"/>
         <source>WARNING: Copying your seed to clipboard can expose you to malicious software, which may record your seed and steal your Opacra. Please write down your seed manually.</source>
-        <translation>אזהרה: העתקת הגרעין ללוח עלולה לחשוף אותך לתוכנות זדוניות, שעשויות לשמור את הגרעין שלך ולגנוב את המונרו שברשותך. אנא שמור את הגרעין שלך באופן ידני.</translation>
+        <translation>אזהרה: העתקת הגרעין ללוח עלולה לחשוף אותך לתוכנות זדוניות, שעשויות לשמור את הגרעין שלך ולגנוב את הOpacra שברשותך. אנא שמור את הגרעין שלך באופן ידני.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="106"/>
@@ -1718,7 +1718,7 @@ Mining also gives you a small chance to earn some Opacra. Your computer will cre
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="102"/>
         <source>Embedded Opacra version: </source>
-        <translation>גרסת המונרו המוטמעת</translation>
+        <translation>גרסת הOpacra המוטמעת</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="132"/>
@@ -2011,7 +2011,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="224"/>
         <source>Uses a third-party server to connect to the Opacra network. Less secure, but easier on your computer.</source>
-        <translation>שימוש בשרת של גוף שלישי בכדי להתחבר לרשת של מונרו. פחות מאובטח אבל מצריך מפחות משאבים מהמחשב שלך.</translation>
+        <translation>שימוש בשרת של גוף שלישי בכדי להתחבר לרשת של Opacra. פחות מאובטח אבל מצריך מפחות משאבים מהמחשב שלך.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="253"/>
@@ -2227,7 +2227,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="103"/>
         <source>This page allows you to interact with the shared ring database. This database is meant for use by Opacra wallets as well as wallets from Opacra clones which reuse the Opacra keys.</source>
-        <translation>דף זה מאפשר לך ליצור אינטראקציה עם מסד נתוני הטבעת המשותף. מסד נתונים זה מיועד לשימוש על-ידי ארנקי מונרו, כמו גם על-ידי שיבוטים אשר עושים שימוש חוזר במפתחות של מונרו</translation>
+        <translation>דף זה מאפשר לך ליצור אינטראקציה עם מסד נתוני הטבעת המשותף. מסד נתונים זה מיועד לשימוש על-ידי ארנקי Opacra, כמו גם על-ידי שיבוטים אשר עושים שימוש חוזר במפתחות של Opacra</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="115"/>
@@ -2733,7 +2733,7 @@ Confirmation message:
     <message>
         <location filename="../pages/Transfer.qml" line="1071"/>
         <source>Opacra sent successfully</source>
-        <translation>מונרו נשלח בהצלחה</translation>
+        <translation>Opacra נשלח בהצלחה</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="1199"/>
@@ -4325,7 +4325,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../main.qml" line="1055"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>כתובת זו קיבלה %1 מונרו, עם %2 אישורים.</translation>
+        <translation>כתובת זו קיבלה %1 Opacra, עם %2 אישורים.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1066"/>
@@ -4487,7 +4487,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../main.qml" line="1052"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>כתובת זו קיבלה %1 מונרו, אך ההעברה טרם אושרה ע&quot;י הרשת</translation>
+        <translation>כתובת זו קיבלה %1 Opacra, אך ההעברה טרם אושרה ע&quot;י הרשת</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1059"/>

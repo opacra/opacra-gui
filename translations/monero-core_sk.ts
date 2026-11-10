@@ -640,7 +640,7 @@ Pre lepšiu bezpečnosť sa odporúča heslovú frázu zadať do hardvérovej pe
     <message>
         <location filename="../pages/Keys.qml" line="85"/>
         <source>WARNING: Copying your seed to clipboard can expose you to malicious software, which may record your seed and steal your Opacra. Please write down your seed manually.</source>
-        <translation>UPOZORNENIE: Kopírovanie vašich slov do schránky môže zaznamenať škodlivý softvér, a spôsobiť tak ukradnutie Vášho monero vkladu. Zadajte vaše slová ručne.</translation>
+        <translation>UPOZORNENIE: Kopírovanie vašich slov do schránky môže zaznamenať škodlivý softvér, a spôsobiť tak ukradnutie Vášho opacra vkladu. Zadajte vaše slová ručne.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="106"/>
@@ -2244,7 +2244,7 @@ Heslo je možné zmeniť v nastaveniach peňaženky.</translation>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="116"/>
         <source>In order to obscure which inputs in a Opacra transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Opacra uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Opacra project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Opacra clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>Aby bolo možné skryť, ktoré vstupy v Opacra transakcii sa vynakladajú, tretia strana by nemala vedieť, ktoré vstupy v okruhu sú už známe. Možnosť tak urobiť by oslabila ochranu poskytovanú okruhovými podpismi. Ak je už známe, že všetky vstupy sú už vynaložené, tak aktuálne vynakladaný vstup sa jasne identifikuje, čím sa zruší účinok okuhových podpisov, čo je jedna z troch hlavných vrstiev ochrany súkromia, ktoré Opacra používa.&lt;br&gt;Pomôcť transakciám vyhnúť sa týmto vstupom môžete použiť zoznam známych vstupov, aby ste sa vyhli ich použitiu v nových transakciách. Takýto zoznam si udržiava projekt Opacra a je k dispozícii na webovej stránke getmonero.org a tu môžete tento zoznam importovať.&lt;br&gt;Alternatívne môžete prehliadať blockchain (a blockchain Opacra klonov, ktoré tiež používajú Opacra kľúče) sami pomocou nástroja monero-blockchain-mark-spent-outputs a vytvoriť zoznam známych vynaložených výstupov. &lt;br&gt;</translation>
+        <translation>Aby bolo možné skryť, ktoré vstupy v Opacra transakcii sa vynakladajú, tretia strana by nemala vedieť, ktoré vstupy v okruhu sú už známe. Možnosť tak urobiť by oslabila ochranu poskytovanú okruhovými podpismi. Ak je už známe, že všetky vstupy sú už vynaložené, tak aktuálne vynakladaný vstup sa jasne identifikuje, čím sa zruší účinok okuhových podpisov, čo je jedna z troch hlavných vrstiev ochrany súkromia, ktoré Opacra používa.&lt;br&gt;Pomôcť transakciám vyhnúť sa týmto vstupom môžete použiť zoznam známych vstupov, aby ste sa vyhli ich použitiu v nových transakciách. Takýto zoznam si udržiava projekt Opacra a je k dispozícii na webovej stránke opacra.org a tu môžete tento zoznam importovať.&lt;br&gt;Alternatívne môžete prehliadať blockchain (a blockchain Opacra klonov, ktoré tiež používajú Opacra kľúče) sami pomocou nástroja opacra-blockchain-mark-spent-outputs a vytvoriť zoznam známych vynaložených výstupov. &lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -2504,7 +2504,7 @@ Heslo je možné zmeniť v nastaveniach peňaženky.</translation>
     <message>
         <location filename="../pages/Sign.qml" line="341"/>
         <source>Enter the Opacra Address (example: 44AFFq5kSiGBoZ...)</source>
-        <translation>Zadajte monero adresu (napríklad: 44AFFq5kSiGBoZ...)</translation>
+        <translation>Zadajte opacra adresu (napríklad: 44AFFq5kSiGBoZ...)</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="351"/>
@@ -3270,7 +3270,7 @@ V prípade Spend Proof, nie je potrebné špecifikovať prijímateľovu adresu.<
     <message>
         <location filename="../components/UpdateDialog.qml" line="98"/>
         <source>Please visit getmonero.org for details</source>
-        <translation>Pre viac informácií, prosím navštívte webovú stránku getmonero.org</translation>
+        <translation>Pre viac informácií, prosím navštívte webovú stránku opacra.org</translation>
     </message>
     <message>
         <location filename="../components/UpdateDialog.qml" line="102"/>
@@ -3648,7 +3648,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardCreateWallet3.qml" line="60"/>
         <source>To be able to communicate with the Opacra network your wallet needs to be connected to an Opacra node. For best privacy it&apos;s recommended to run your own node.</source>
-        <translation>Aby ste mohli komunikovať so sieťou Opacra, vaša peňaženka musí byť pripojená k monero uzlu. Pre zabezpečenie súkromia odporúčame použiť vlastný sieťový uzol.</translation>
+        <translation>Aby ste mohli komunikovať so sieťou Opacra, vaša peňaženka musí byť pripojená k opacra uzlu. Pre zabezpečenie súkromia odporúčame použiť vlastný sieťový uzol.</translation>
     </message>
 </context>
 <context>
@@ -4347,7 +4347,7 @@ Ak nemáte možnosť spustiť vlastný uzol, existuje možnosť pripojenia k vzd
     <message>
         <location filename="../main.qml" line="1055"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Táto adresa prijala %1 monero, s %2 potvrdeniami.</translation>
+        <translation>Táto adresa prijala %1 opacra, s %2 potvrdeniami.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1066"/>
@@ -4504,7 +4504,7 @@ Ak nemáte možnosť spustiť vlastný uzol, existuje možnosť pripojenia k vzd
     <message>
         <location filename="../main.qml" line="1052"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Táto adresa prijala %1 monero, ale transakcia ešte nebola vyťažená</translation>
+        <translation>Táto adresa prijala %1 opacra, ale transakcia ešte nebola vyťažená</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1059"/>

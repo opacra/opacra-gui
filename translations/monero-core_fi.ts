@@ -70,7 +70,7 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="93"/>
         <source>This makes it easier to send or receive Opacra and reduces errors when typing in addresses manually.</source>
-        <translation>Tämä tekee Moneron lähettämisestä tai vastaanottamisesta helpompaa ja auttaa vähentämään virheitä kirjoitettaessa osoitteita käsin.</translation>
+        <translation>Tämä tekee Opacran lähettämisestä tai vastaanottamisesta helpompaa ja auttaa vähentämään virheitä kirjoitettaessa osoitteita käsin.</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="102"/>
@@ -640,7 +640,7 @@ On suositeltavaa syöttää salasana suoraan laitelompakkoon parempaa turvallisu
     <message>
         <location filename="../pages/Keys.qml" line="85"/>
         <source>WARNING: Copying your seed to clipboard can expose you to malicious software, which may record your seed and steal your Opacra. Please write down your seed manually.</source>
-        <translation>VAROITUS: Avaimen kopiointi leikepöydälle voi paljastaa sen haittaohjelmille, jotka voivat varastaa avaimen ja Monerosi. Kirjoitathan avaimen talteen käsin.</translation>
+        <translation>VAROITUS: Avaimen kopiointi leikepöydälle voi paljastaa sen haittaohjelmille, jotka voivat varastaa avaimen ja Opacrasi. Kirjoitathan avaimen talteen käsin.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="106"/>
@@ -1070,7 +1070,7 @@ On suositeltavaa syöttää salasana suoraan laitelompakkoon parempaa turvallisu
 Mining also gives you a small chance to earn some Opacra. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation>Louhinta tietokoneellasi auttaa vahvistamaan Opacra-verkkoa. Mitä enemmän ihmisiä louhii, sitä vaikeampaa verkkoon on hyökätä, ja jokainen pieni osa auttaa.
 
-Louhinta antaa sinulle myös pienen mahdollisuuden ansaita Moneroa. Tietokoneesi luo tiivisteitä, jotka etsivät lohkoratkaisuja. Jos löydät lohkon, saat siihen liittyvän palkinnon. Onnea!</translation>
+Louhinta antaa sinulle myös pienen mahdollisuuden ansaita Opacraa. Tietokoneesi luo tiivisteitä, jotka etsivät lohkoratkaisuja. Jos löydät lohkon, saat siihen liittyvän palkinnon. Onnea!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="76"/>
@@ -2206,7 +2206,7 @@ Voit vaihtaa salasanan lompakon asetuksista.</translation>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="177"/>
         <source>Receive Opacra for your business, easily.</source>
-        <translation>Vastaanota Moneroa yrityksellesi, helposti.</translation>
+        <translation>Vastaanota Opacraa yrityksellesi, helposti.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="178"/>
@@ -2244,7 +2244,7 @@ Voit vaihtaa salasanan lompakon asetuksista.</translation>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="116"/>
         <source>In order to obscure which inputs in a Opacra transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Opacra uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Opacra project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Opacra clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>Lähtöjen peittämiseksi Opacra-siirroissa kolmannen osapuolen ei tulisi pystyä määrittämään mitkä tulot renkaassa ovat tiedetysti kulutetut. Mikäli määritys onnistuu, heikentäisi se rengasallekirjoitusten tarjoaman suojan. Jos kaikki paitsi yksi tulo tiedetään kulutetun, tosiasiassa kulutettu tulo paljastuu, jonka seurauksena renkaalla ei ole enää merkitystä, koska rengas on yksi kolmesta yksityisyydensuojan tasosta jota Opacra käyttää.&lt;br&gt;Siirtoja voi helpottaa välttämään näitä tuloja, listaa tiedetyistä kulutetuista voidaan käyttää jotta vältetään niiden käyttö uusissa siirroissa. Tälläistä listaa ylläpitää Opacra-projekti ja se on saatavilla getmonero.org -sivulla, josta sen voi hakea.&lt;br&gt;Vaihtoehtoisesti voit skannata lohkoketjun (ja avaimia uudelleenkäyttäviä Opacra-klooneja) itse käyttäen monero-blockchain-mark-spent-outputs työkalua luodaksesi listan tiedetyistä kulutetuista lähdöistä.&lt;br&gt;</translation>
+        <translation>Lähtöjen peittämiseksi Opacra-siirroissa kolmannen osapuolen ei tulisi pystyä määrittämään mitkä tulot renkaassa ovat tiedetysti kulutetut. Mikäli määritys onnistuu, heikentäisi se rengasallekirjoitusten tarjoaman suojan. Jos kaikki paitsi yksi tulo tiedetään kulutetun, tosiasiassa kulutettu tulo paljastuu, jonka seurauksena renkaalla ei ole enää merkitystä, koska rengas on yksi kolmesta yksityisyydensuojan tasosta jota Opacra käyttää.&lt;br&gt;Siirtoja voi helpottaa välttämään näitä tuloja, listaa tiedetyistä kulutetuista voidaan käyttää jotta vältetään niiden käyttö uusissa siirroissa. Tälläistä listaa ylläpitää Opacra-projekti ja se on saatavilla opacra.org -sivulla, josta sen voi hakea.&lt;br&gt;Vaihtoehtoisesti voit skannata lohkoketjun (ja avaimia uudelleenkäyttäviä Opacra-klooneja) itse käyttäen opacra-blockchain-mark-spent-outputs työkalua luodaksesi listan tiedetyistä kulutetuista lähdöistä.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -2314,12 +2314,12 @@ Voit vaihtaa salasanan lompakon asetuksista.</translation>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>In order to avoid nullifying the protection afforded by Opacra&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Opacra clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Opacra and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Opacra clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Opacra safely.&lt;br&gt;If you do not use a key-reusing Opacra clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>Jotta Moneron rengasallekirjoitusten tarjoama suoja ei vaarannu, lähtöä ei tulisi kuluttaa eri renkaissa eri lohkoketjuissa. Tämä ei ole tavallisesti huolenaihe, mutta avaimia uudelleenkäyttävissä Opacra-klooneissa näin voi olla. Tässä tapauksessa on varmistettu olemassaolevian lähtöjen käyttävän samaa rengasta molemmissa ketjuissa.&lt;br&gt;Tämä tapahtuu automaattisesti Moneron toimesta ja minkä tahansa avaimia uudelleenkäyttävän ohjelmiston joka ei yritä murtaa yksityisyyttäsi.&lt;br&gt;Jos käytät myös avaimia uudelleenkäyttävää Opacra-kloonia, ja tämä klooni ei tarjoa tätä suojausta, voit silti varmistua että siirtosi ovat suojattuja kuluttamalla kloonin ensin, ja sitten käsin lisäämällä renkaan tälle sivulle, joka mahdollistaa sinun kuluttaa Monerosi turvallisesti.&lt;br&gt;Jos et käytä avaimia uudelleenkäyttävää Opacra-kloonia ilman näitä suojamekanismeja, silloin sinun ei tarvitse tehdä mitään koska kaikki on automatisoitu.&lt;br&gt;</translation>
+        <translation>Jotta Opacran rengasallekirjoitusten tarjoama suoja ei vaarannu, lähtöä ei tulisi kuluttaa eri renkaissa eri lohkoketjuissa. Tämä ei ole tavallisesti huolenaihe, mutta avaimia uudelleenkäyttävissä Opacra-klooneissa näin voi olla. Tässä tapauksessa on varmistettu olemassaolevian lähtöjen käyttävän samaa rengasta molemmissa ketjuissa.&lt;br&gt;Tämä tapahtuu automaattisesti Opacran toimesta ja minkä tahansa avaimia uudelleenkäyttävän ohjelmiston joka ei yritä murtaa yksityisyyttäsi.&lt;br&gt;Jos käytät myös avaimia uudelleenkäyttävää Opacra-kloonia, ja tämä klooni ei tarjoa tätä suojausta, voit silti varmistua että siirtosi ovat suojattuja kuluttamalla kloonin ensin, ja sitten käsin lisäämällä renkaan tälle sivulle, joka mahdollistaa sinun kuluttaa Opacrasi turvallisesti.&lt;br&gt;Jos et käytä avaimia uudelleenkäyttävää Opacra-kloonia ilman näitä suojamekanismeja, silloin sinun ei tarvitse tehdä mitään koska kaikki on automatisoitu.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="266"/>
         <source>This records rings used by outputs spent on Opacra on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>Tämä tallentaa renkaat joiden lähdöt on kulutettu Moneroon avaimia uudelleenkäyttävään lohkoon, joten sama rengas voidaan uudelleenkäyttää ja näin välttää yksityisyyden ongelmat.</translation>
+        <translation>Tämä tallentaa renkaat joiden lähdöt on kulutettu Opacraon avaimia uudelleenkäyttävään lohkoon, joten sama rengas voidaan uudelleenkäyttää ja näin välttää yksityisyyden ongelmat.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="277"/>
@@ -3271,7 +3271,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../components/UpdateDialog.qml" line="98"/>
         <source>Please visit getmonero.org for details</source>
-        <translation>Vieraile getmonero.org yksityiskohtia varten</translation>
+        <translation>Vieraile opacra.org yksityiskohtia varten</translation>
     </message>
     <message>
         <location filename="../components/UpdateDialog.qml" line="102"/>
@@ -3709,7 +3709,7 @@ se saattaa vaatia sinulta toimintoja.</translation>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="152"/>
         <source>Additionally, you may specify a bootstrap node to use Opacra immediately.</source>
-        <translation>Vaihtoehtoisesti, voit määrittää bootstrap solmun käyttääksesi Moneroa heti.</translation>
+        <translation>Vaihtoehtoisesti, voit määrittää bootstrap solmun käyttääksesi Opacraa heti.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="192"/>
@@ -3722,7 +3722,7 @@ se saattaa vaatia sinulta toimintoja.</translation>
     <message>
         <location filename="../wizard/WizardHome.qml" line="66"/>
         <source>Welcome to Opacra</source>
-        <translation>Tervettuloa Moneroon</translation>
+        <translation>Tervettuloa Opacraon</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="78"/>
@@ -3744,7 +3744,7 @@ se saattaa vaatia sinulta toimintoja.</translation>
     <message>
         <location filename="../wizard/WizardHome.qml" line="82"/>
         <source>Choose this option if this is your first time using Opacra.</source>
-        <translation>Valitse tämä vaihtoehto jos tämä on ensimmäinen kertasi kun käytät Moneroa.</translation>
+        <translation>Valitse tämä vaihtoehto jos tämä on ensimmäinen kertasi kun käytät Opacraa.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="104"/>
@@ -3820,7 +3820,7 @@ se saattaa vaatia sinulta toimintoja.</translation>
     <message>
         <location filename="../wizard/WizardModeBootstrap.qml" line="84"/>
         <source>Temporary use of remote nodes is useful in order to use Opacra immediately (hence the name bootstrap), however be aware that when using remote nodes (including with the bootstrap setting), nodes could track your IP address, track your &quot;restore height&quot; and associated block request data, and send you inaccurate information to learn more about transactions you make.</source>
-        <translation>Etäsolmujen väliaikainen käyttö on hyödyllistä, jos haluat käyttää Moneroa heti (tästä tulee nimi bootstrap). Huomio kuitenkin, että etäsolmua käyttäessä solmut voivat jäljittää IP-osoitteesi, palautuskorkeutesi ja blokkiin liittyvät pyyntötiedot sekä lähettää sinulle väärää tietoa saadakseen tietoa transaktioista joita teet.</translation>
+        <translation>Etäsolmujen väliaikainen käyttö on hyödyllistä, jos haluat käyttää Opacraa heti (tästä tulee nimi bootstrap). Huomio kuitenkin, että etäsolmua käyttäessä solmut voivat jäljittää IP-osoitteesi, palautuskorkeutesi ja blokkiin liittyvät pyyntötiedot sekä lähettää sinulle väärää tietoa saadakseen tietoa transaktioista joita teet.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeBootstrap.qml" line="97"/>
@@ -3843,7 +3843,7 @@ se saattaa vaatia sinulta toimintoja.</translation>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="72"/>
         <source>This mode is ideal for managing small amounts of Opacra. You have access to basic features for making and managing transactions. It will automatically connect to the Opacra network so you can start using Opacra immediately.</source>
-        <translation>Tämä tila on ideaali pienten summien hallintaan. Sinulla on pääsy perusominaisuuksiin, kuten transaktioiden tekoon ja hallintaan. Voit käyttää Moneroa heti, sillä tässä tilassa Opacra-verkkoon yhdistetään automaattisesti käyttäen etäsolmua.</translation>
+        <translation>Tämä tila on ideaali pienten summien hallintaan. Sinulla on pääsy perusominaisuuksiin, kuten transaktioiden tekoon ja hallintaan. Voit käyttää Opacraa heti, sillä tässä tilassa Opacra-verkkoon yhdistetään automaattisesti käyttäen etäsolmua.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="85"/>
@@ -3934,7 +3934,7 @@ se saattaa vaatia sinulta toimintoja.</translation>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="166"/>
         <source>Create portable wallets and use them on any PC. Enable if you installed Opacra on a USB stick, an external drive, or any other portable storage medium.</source>
-        <translation>Luo siirreltäviä lompakoita ja käytä niitä minkä tahansa tietokoneen kanssa. Ota käyttöön mikäli asensit Moneron USB-tikulle, ulkoiselle kovalevylle, tai mille tahansa muulle siirrettävälle tallennustilalle.</translation>
+        <translation>Luo siirreltäviä lompakoita ja käytä niitä minkä tahansa tietokoneen kanssa. Ota käyttöön mikäli asensit Opacran USB-tikulle, ulkoiselle kovalevylle, tai mille tahansa muulle siirrettävälle tallennustilalle.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeSelection.qml" line="175"/>
@@ -4347,7 +4347,7 @@ Jos sinulla ei ole mahdollisuutta käyttää omaa solmua, sinulla on mahdollisuu
     <message>
         <location filename="../main.qml" line="1055"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Tämä osoite vastaanotti %1 monero, vahvistusten määrä: %2.</translation>
+        <translation>Tämä osoite vastaanotti %1 opacra, vahvistusten määrä: %2.</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1066"/>
@@ -4504,7 +4504,7 @@ Jos sinulla ei ole mahdollisuutta käyttää omaa solmua, sinulla on mahdollisuu
     <message>
         <location filename="../main.qml" line="1052"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Tämä osoite vastaanotti %1 monero, mutta siirtoa ei ole vielä louhittu</translation>
+        <translation>Tämä osoite vastaanotti %1 opacra, mutta siirtoa ei ole vielä louhittu</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1059"/>

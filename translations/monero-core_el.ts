@@ -2242,7 +2242,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="116"/>
         <source>In order to obscure which inputs in a Opacra transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Opacra uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Opacra project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Opacra clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>Για να αποκρύψετε ποιες είσοδοι ξοδεύονται σε μια συναλλαγή Opacra, ένας τρίτος δεν πρέπει να είναι σε θέση να ξεχωρίσει το ποιες είσοδοι είναι ήδη γνωστό ότι δαπανώνται σε έναν δακτύλιο. Το να μπορεί να γίνει αυτό θα εξασθενίσει την προστασία που παρέχεται από τις υπογραφές του δακτυλίου. Εάν είναι γνωστό ότι έχουν ήδη δαπανηθεί όλες εκτός από μία από τις εισόδους, τότε η είσοδος που ξοδεύεται στην πραγματικότητα γίνεται εμφανής, ακυρώνοντας έτσι την επίδραση των υπογραφών του δακτυλίου, ένα από τα τρία βασικά επίπεδα προστασίας της ιδιωτικότητας που χρησιμοποιεί το Opacra. &lt;br&gt;Για να βοηθήσετε τις συναλλαγές να αποφύγουν αυτές τις εισροές, μια λίστα γνωστών δαπανών μπορεί να χρησιμοποιηθεί για να αποφευχθεί η χρήση τους σε νέες συναλλαγές. Μια τέτοια λίστα διατηρείται από το Opacra και είναι διαθέσιμη στον ιστότοπο getmonero.org και μπορείτε να εισάγετε αυτήν τη λίστα εδώ. &lt;br&gt;Εναλλακτικά, μπορείτε να σαρώσετε μόνοι σας το blockchain (και τα blockchain των κλώνων Opacra που επαναχρησιμοποιούν κλειδιά) με το εργαλείο monero-blockchain-mark-spent-outputs για τη δημιουργία μιας λίστας γνωστών εξαγόμενων δαπανών.&lt;br&gt;</translation>
+        <translation>Για να αποκρύψετε ποιες είσοδοι ξοδεύονται σε μια συναλλαγή Opacra, ένας τρίτος δεν πρέπει να είναι σε θέση να ξεχωρίσει το ποιες είσοδοι είναι ήδη γνωστό ότι δαπανώνται σε έναν δακτύλιο. Το να μπορεί να γίνει αυτό θα εξασθενίσει την προστασία που παρέχεται από τις υπογραφές του δακτυλίου. Εάν είναι γνωστό ότι έχουν ήδη δαπανηθεί όλες εκτός από μία από τις εισόδους, τότε η είσοδος που ξοδεύεται στην πραγματικότητα γίνεται εμφανής, ακυρώνοντας έτσι την επίδραση των υπογραφών του δακτυλίου, ένα από τα τρία βασικά επίπεδα προστασίας της ιδιωτικότητας που χρησιμοποιεί το Opacra. &lt;br&gt;Για να βοηθήσετε τις συναλλαγές να αποφύγουν αυτές τις εισροές, μια λίστα γνωστών δαπανών μπορεί να χρησιμοποιηθεί για να αποφευχθεί η χρήση τους σε νέες συναλλαγές. Μια τέτοια λίστα διατηρείται από το Opacra και είναι διαθέσιμη στον ιστότοπο opacra.org και μπορείτε να εισάγετε αυτήν τη λίστα εδώ. &lt;br&gt;Εναλλακτικά, μπορείτε να σαρώσετε μόνοι σας το blockchain (και τα blockchain των κλώνων Opacra που επαναχρησιμοποιούν κλειδιά) με το εργαλείο opacra-blockchain-mark-spent-outputs για τη δημιουργία μιας λίστας γνωστών εξαγόμενων δαπανών.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -3268,7 +3268,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../components/UpdateDialog.qml" line="98"/>
         <source>Please visit getmonero.org for details</source>
-        <translation>Για λεπτομέρειες παρακαλώ επισκεφτείτε το getmonero.org</translation>
+        <translation>Για λεπτομέρειες παρακαλώ επισκεφτείτε το opacra.org</translation>
     </message>
     <message>
         <location filename="../components/UpdateDialog.qml" line="102"/>
@@ -4344,7 +4344,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../main.qml" line="1055"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Αυτή η διεύθυνση έλαβε %1 monero, με %2 επιβεβαιώση(-σεις).</translation>
+        <translation>Αυτή η διεύθυνση έλαβε %1 opacra, με %2 επιβεβαιώση(-σεις).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1066"/>
@@ -4501,7 +4501,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../main.qml" line="1052"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Αυτή η διεύθυνση έλαβε %1 monero, αλλά η συναλλαγή δεν έχει εξορυχθεί ακόμα</translation>
+        <translation>Αυτή η διεύθυνση έλαβε %1 opacra, αλλά η συναλλαγή δεν έχει εξορυχθεί ακόμα</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1059"/>

@@ -70,7 +70,7 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="93"/>
         <source>This makes it easier to send or receive Opacra and reduces errors when typing in addresses manually.</source>
-        <translation>هذا يسهل إرسال وإستقبال مونيرو ويقلل من الأخطاء أثناء كتابة العناوين يدوياً</translation>
+        <translation>هذا يسهل إرسال وإستقبال Opacra ويقلل من الأخطاء أثناء كتابة العناوين يدوياً</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="102"/>
@@ -634,7 +634,7 @@ It is recommended to enter passphrase on the hardware wallet for better security
     <message>
         <location filename="../pages/Keys.qml" line="62"/>
         <source>WARNING: Do not reuse your Opacra keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
-        <translation>تحذير: لا تعيد استخدام مفاتيح مونيرو على شبكات مشتقه أخرى ، إلا إذا كانت هذه الشبكات تحتوي علي حمايه من اعاده استخدام المفاتيح.وإلا سيؤدي ذلك إلى الإضرار بالخصوصية.
+        <translation>تحذير: لا تعيد استخدام مفاتيح Opacra على شبكات مشتقه أخرى ، إلا إذا كانت هذه الشبكات تحتوي علي حمايه من اعاده استخدام المفاتيح.وإلا سيؤدي ذلك إلى الإضرار بالخصوصية.
 
 </translation>
     </message>
@@ -1212,7 +1212,7 @@ Mining also gives you a small chance to earn some Opacra. Your computer will cre
     <message>
         <location filename="../pages/Mining.qml" line="569"/>
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
-        <translation>التعدين متاح فقط علي الخوادم المحليه . شغل خادم مونيرو علي جهازك عشان تعرف تشغل التعدين بالمحفظه</translation>
+        <translation>التعدين متاح فقط علي الخوادم المحليه . شغل خادم Opacra علي جهازك عشان تعرف تشغل التعدين بالمحفظه</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="343"/>
@@ -1720,7 +1720,7 @@ Mining also gives you a small chance to earn some Opacra. Your computer will cre
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="102"/>
         <source>Embedded Opacra version: </source>
-        <translation>نسخه مونيرو المضمنه: </translation>
+        <translation>نسخه Opacra المضمنه: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="132"/>
@@ -2013,12 +2013,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="224"/>
         <source>Uses a third-party server to connect to the Opacra network. Less secure, but easier on your computer.</source>
-        <translation>تستخدم خادم طرف تالت للإتصال بشبكه مونيرو. أمان اقل, ولكن ابسط علي جهازك.</translation>
+        <translation>تستخدم خادم طرف تالت للإتصال بشبكه Opacra. أمان اقل, ولكن ابسط علي جهازك.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="253"/>
         <source>To find a remote node, type &apos;Opacra remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
-        <translation>لإيجاد خادم عن بعد ابحث عن -monero remote node - من فضلك تأكد ان الخادم مشغل بواسطه جهه موثوق بها.</translation>
+        <translation>لإيجاد خادم عن بعد ابحث عن -opacra remote node - من فضلك تأكد ان الخادم مشغل بواسطه جهه موثوق بها.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="317"/>
@@ -2229,7 +2229,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="103"/>
         <source>This page allows you to interact with the shared ring database. This database is meant for use by Opacra wallets as well as wallets from Opacra clones which reuse the Opacra keys.</source>
-        <translation>تسمح لك هذه الصفحة بالتفاعل مع قاعدة بيانات الطوق المشتركة. قاعدة البيانات هذه مخصصة للاستخدام من قبل محافظ مونيرو بالإضافة إلى محافظ من مشتقات مونيرو التي تعيد استخدام مفاتيح مونيرو.</translation>
+        <translation>تسمح لك هذه الصفحة بالتفاعل مع قاعدة بيانات الطوق المشتركة. قاعدة البيانات هذه مخصصة للاستخدام من قبل محافظ Opacra بالإضافة إلى محافظ من مشتقات Opacra التي تعيد استخدام مفاتيح Opacra.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="115"/>
@@ -2239,9 +2239,9 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="116"/>
         <source>In order to obscure which inputs in a Opacra transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Opacra uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Opacra project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Opacra clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>لحجب اي المدخلات يتم انفاقها في معامله مونيرو يجب الا يتمكن طرف تالت من معرفه اي من المدخلات في المعامله تم انفاقها. القدره علي فعل ذلك تضعف الحمايه التي توفرها توقيعات الطوق.اذا إذا كانت جميع المدخلات ماعدا واحدة قد تم إنفاقها بالفعل ، فإن المدخلات التي يتم إنفاقها بالفعل تصبح ظاهرة ، وبالتالي تبطل أثر توقيعات الطوق وهي واحده من التلات طبقات الرئيسيه لحمايه الخصوصيه التي يوفرها مونيرو.
-لمساعده المعاملات علي تجنب تلك المدخلات  يمكن استخدام قائمة بالأشكال المستنفذة المعروفة لتجنب استخدامها في معاملات جديدة. يتم الاحتفاظ بمثل هذه القائمة من خلال مشروع مونيرو وهو متاح على موقع getmonero.org ويمكنك استيراد هذه القائمه هنا.
-أيضاً يمكنك فحص سلسله الكتل بنفسك ( وسلسله الكتل التي تعيد استخدام مفاتيح مونيرو) بنفسك بإستخدام أداه monero-blockchain-mark-spent-outputs لإنشاء قائمة بالمخرجات المستنفذة المعروفة.</translation>
+        <translation>لحجب اي المدخلات يتم انفاقها في معامله Opacra يجب الا يتمكن طرف تالت من معرفه اي من المدخلات في المعامله تم انفاقها. القدره علي فعل ذلك تضعف الحمايه التي توفرها توقيعات الطوق.اذا إذا كانت جميع المدخلات ماعدا واحدة قد تم إنفاقها بالفعل ، فإن المدخلات التي يتم إنفاقها بالفعل تصبح ظاهرة ، وبالتالي تبطل أثر توقيعات الطوق وهي واحده من التلات طبقات الرئيسيه لحمايه الخصوصيه التي يوفرها Opacra.
+لمساعده المعاملات علي تجنب تلك المدخلات  يمكن استخدام قائمة بالأشكال المستنفذة المعروفة لتجنب استخدامها في معاملات جديدة. يتم الاحتفاظ بمثل هذه القائمة من خلال مشروع Opacra وهو متاح على موقع opacra.org ويمكنك استيراد هذه القائمه هنا.
+أيضاً يمكنك فحص سلسله الكتل بنفسك ( وسلسله الكتل التي تعيد استخدام مفاتيح Opacra) بنفسك بإستخدام أداه opacra-blockchain-mark-spent-outputs لإنشاء قائمة بالمخرجات المستنفذة المعروفة.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -2311,16 +2311,16 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>In order to avoid nullifying the protection afforded by Opacra&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Opacra clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Opacra and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Opacra clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Opacra safely.&lt;br&gt;If you do not use a key-reusing Opacra clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>لتجنب إبطال الحماية التي توفرها توقيعات الطوق  يجب أن لا يتم إنفاق المخرج باستخدام حلقات مختلفة على سلاسل كتل مختلفة. على الرغم من أن هذا الأمر لا يشكل مصدر قلق في العادة ، إلا أنه يمكن أن يصبح واحدًا عندما يسمح لك نسخه منشقه من مونيرو  باستخدام المخرجات المنفقه. في هذه الحالة ، تحتاج إلى التأكد من أن هذه المخرجات الحالية تستخدم نفس الحلقة في السلاسل.
+        <translation>لتجنب إبطال الحماية التي توفرها توقيعات الطوق  يجب أن لا يتم إنفاق المخرج باستخدام حلقات مختلفة على سلاسل كتل مختلفة. على الرغم من أن هذا الأمر لا يشكل مصدر قلق في العادة ، إلا أنه يمكن أن يصبح واحدًا عندما يسمح لك نسخه منشقه من Opacra  باستخدام المخرجات المنفقه. في هذه الحالة ، تحتاج إلى التأكد من أن هذه المخرجات الحالية تستخدم نفس الحلقة في السلاسل.
  سيتم ذلك تلقائيًا بواسطة  وأي برنامج لإعادة استخدام المفاتيح لا يحاول أن يمنعك من خصوصيتك.
-إذا كنت تستخدم نسخه منشقه من مونيرو  ، ولا تتضمن النسخة هذه الحماية ، فلا يزال بإمكانك ضمان حماية معاملاتك عن طريق الإنفاق على النسخه منشقه من مونيرو أولاً ، ثم إضافة الحلقة يدويًا في هذه الصفحة ، مما يتيح لك حتى تنفق  مونيرو بأمان. 
-إذا كنت لا تستخدم نسخه منشقه من مونيرو فلا يلزمك فعل أي شيء حيث إن العمليه هذه تتم بتلقائية.
+إذا كنت تستخدم نسخه منشقه من Opacra  ، ولا تتضمن النسخة هذه الحماية ، فلا يزال بإمكانك ضمان حماية معاملاتك عن طريق الإنفاق على النسخه منشقه من Opacra أولاً ، ثم إضافة الحلقة يدويًا في هذه الصفحة ، مما يتيح لك حتى تنفق  Opacra بأمان. 
+إذا كنت لا تستخدم نسخه منشقه من Opacra فلا يلزمك فعل أي شيء حيث إن العمليه هذه تتم بتلقائية.
 </translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="266"/>
         <source>This records rings used by outputs spent on Opacra on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation>يتم استخدام حلقات السجلات هذه بواسطة المخرجات التي يتم إنفاقها على نسخه منشقه من مونيرو تستخدم نفس المفاتيح ، بحيث يمكن إعادة استخدام الحلقة نفسها لتجنب مشكلات الخصوصية.</translation>
+        <translation>يتم استخدام حلقات السجلات هذه بواسطة المخرجات التي يتم إنفاقها على نسخه منشقه من Opacra تستخدم نفس المفاتيح ، بحيث يمكن إعادة استخدام الحلقة نفسها لتجنب مشكلات الخصوصية.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="277"/>
@@ -2360,12 +2360,12 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="363"/>
         <source>I intend to spend on key-reusing fork(s)</source>
-        <translation>انتوي الإنفاق علي نسخه منشقه من مونيرو تستخدم نفس المفاتيح</translation>
+        <translation>انتوي الإنفاق علي نسخه منشقه من Opacra تستخدم نفس المفاتيح</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="375"/>
         <source>I might want to spend on key-reusing fork(s)</source>
-        <translation>ربما انفق علي نسخه منشقه من مونيرو تستخدم نفس المفاتيح</translation>
+        <translation>ربما انفق علي نسخه منشقه من Opacra تستخدم نفس المفاتيح</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="387"/>
@@ -2889,7 +2889,7 @@ Confirmation message:
     <message>
         <location filename="../pages/Transfer.qml" line="1071"/>
         <source>Opacra sent successfully</source>
-        <translation>تم ارسال مونيرو بنجاح</translation>
+        <translation>تم ارسال Opacra بنجاح</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="1025"/>
@@ -3411,7 +3411,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../js/Utils.js" line="71"/>
         <source>Mainnet</source>
-        <translation>شبكه مونيرو</translation>
+        <translation>شبكه Opacra</translation>
     </message>
 </context>
 <context>
@@ -3994,7 +3994,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardOpenWallet1.qml" line="166"/>
         <source>Mainnet</source>
-        <translation>شبكه مونيرو</translation>
+        <translation>شبكه Opacra</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOpenWallet1.qml" line="167"/>
@@ -4358,7 +4358,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../main.qml" line="1055"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>هذا العنوان استلم %1 مونيرو , مع %2 تأكيدات</translation>
+        <translation>هذا العنوان استلم %1 Opacra , مع %2 تأكيدات</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1066"/>
@@ -4515,7 +4515,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../main.qml" line="1052"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>هذا العنوان استلم %1 مونيرو, لكن المعامله لم يتم تعدينها بعد</translation>
+        <translation>هذا العنوان استلم %1 Opacra, لكن المعامله لم يتم تعدينها بعد</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1059"/>

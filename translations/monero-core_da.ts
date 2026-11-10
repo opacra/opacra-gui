@@ -4334,7 +4334,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../main.qml" line="1055"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>Denne adresse modtog %1 monero, med %2 bekræftelse(r).</translation>
+        <translation>Denne adresse modtog %1 opacra, med %2 bekræftelse(r).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1066"/>
@@ -4491,7 +4491,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../main.qml" line="1052"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation>Denne adresse modtog %1 monero, men transaktionen er ikke minet endnu</translation>
+        <translation>Denne adresse modtog %1 opacra, men transaktionen er ikke minet endnu</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1059"/>

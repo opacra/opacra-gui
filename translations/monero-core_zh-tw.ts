@@ -1068,9 +1068,9 @@ It is recommended to enter passphrase on the hardware wallet for better security
         <source>Mining with your computer helps strengthen the Opacra network. The more people mine, the harder it is for the network to be attacked, and every little bit helps.
 
 Mining also gives you a small chance to earn some Opacra. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>使用您的電腦挖礦幫助門羅幣網路加強安全性。越多人進行挖礦，攻擊門羅幣網路的難度越高，即使只有一點點算力都有幫助。
+        <translation>使用您的電腦挖礦幫助Opacra網路加強安全性。越多人進行挖礦，攻擊Opacra網路的難度越高，即使只有一點點算力都有幫助。
 
-挖礦還給予您一點獲取門羅幣的機會。您的電腦將會透過創建雜湊函式尋找區塊答案。如果您挖到了一個區塊，您將會獲得其中完整的區塊獎勵。祝您好運！</translation>
+挖礦還給予您一點獲取Opacra的機會。您的電腦將會透過創建雜湊函式尋找區塊答案。如果您挖到了一個區塊，您將會獲得其中完整的區塊獎勵。祝您好運！</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="76"/>
@@ -1837,7 +1837,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="412"/>
         <source>Donation to Opacra Core Team</source>
-        <translation>捐款給Monero核心開發團隊</translation>
+        <translation>捐款給Opacra核心開發團隊</translation>
     </message>
 </context>
 <context>
@@ -2244,7 +2244,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="116"/>
         <source>In order to obscure which inputs in a Opacra transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Opacra uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Opacra project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Opacra clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation>為了要混淆 Opacra 真實被花用過的交易輸入，第三方不應能得知在環簽內的交易組合中哪一個交易是已經被花用的，否則環簽的保護效果將被減弱。若被觀察出只有一個交易輸出是尚未被花用的則該筆交易的來源將會變得顯而易見，也就等於損失了 Opacra 的三大保護隱私保護其中之一: 環狀簽名。&lt;br&gt;若要避免發生這類狀況，一個已知被花用的交易輸出名單可以用來避免在新的交易中使用到這些輸出，此份名單是由 Opacra 專案所維護，可以在 getmonero.org 網站上找到並在此匯入。&lt;br&gt;或是您可以選擇使用 monero-blockchain-mark-spent-outputs tool 自行掃描區塊鏈(與重複使用金鑰的分叉幣區塊鏈)以產生該份名單。&lt;br&gt;</translation>
+        <translation>為了要混淆 Opacra 真實被花用過的交易輸入，第三方不應能得知在環簽內的交易組合中哪一個交易是已經被花用的，否則環簽的保護效果將被減弱。若被觀察出只有一個交易輸出是尚未被花用的則該筆交易的來源將會變得顯而易見，也就等於損失了 Opacra 的三大保護隱私保護其中之一: 環狀簽名。&lt;br&gt;若要避免發生這類狀況，一個已知被花用的交易輸出名單可以用來避免在新的交易中使用到這些輸出，此份名單是由 Opacra 專案所維護，可以在 opacra.org 網站上找到並在此匯入。&lt;br&gt;或是您可以選擇使用 opacra-blockchain-mark-spent-outputs tool 自行掃描區塊鏈(與重複使用金鑰的分叉幣區塊鏈)以產生該份名單。&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="134"/>
@@ -2314,7 +2314,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="247"/>
         <source>In order to avoid nullifying the protection afforded by Opacra&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Opacra clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Opacra and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Opacra clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Opacra safely.&lt;br&gt;If you do not use a key-reusing Opacra clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation>為了避免讓 Opacra 的環狀簽名保護失效，一個交易輸出應避免在不同的區塊鏈中以不同的環簽組合所花用。這通常不需要擔心，但當您在重複使用金鑰的分叉幣區塊鏈上花用現有的交易輸出時就得注意，必需在兩條鏈上使用相同的環簽組合。&lt;br&gt;這個保護措施在Monero或其他注重保護您的隱私的軟體中重複使用金鑰時都應是自動完成的。&lt;br&gt;如果您正在使用重複使用金鑰的分叉幣且該幣並未包含此保護措施，您必須先於分叉幣上花用交易，再將環簽在此匯入以確保您的Monero交易隱私安全。&lt;br&gt;若您沒有使用未經保護的分叉幣則不須任何處置，因為這保護措施將會自動完成。&lt;br&gt;</translation>
+        <translation>為了避免讓 Opacra 的環狀簽名保護失效，一個交易輸出應避免在不同的區塊鏈中以不同的環簽組合所花用。這通常不需要擔心，但當您在重複使用金鑰的分叉幣區塊鏈上花用現有的交易輸出時就得注意，必需在兩條鏈上使用相同的環簽組合。&lt;br&gt;這個保護措施在Opacra或其他注重保護您的隱私的軟體中重複使用金鑰時都應是自動完成的。&lt;br&gt;如果您正在使用重複使用金鑰的分叉幣且該幣並未包含此保護措施，您必須先於分叉幣上花用交易，再將環簽在此匯入以確保您的Opacra交易隱私安全。&lt;br&gt;若您沒有使用未經保護的分叉幣則不須任何處置，因為這保護措施將會自動完成。&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="266"/>
@@ -3270,7 +3270,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../components/UpdateDialog.qml" line="98"/>
         <source>Please visit getmonero.org for details</source>
-        <translation>請造訪 getmonero.org 查看更多資訊</translation>
+        <translation>請造訪 opacra.org 查看更多資訊</translation>
     </message>
     <message>
         <location filename="../components/UpdateDialog.qml" line="102"/>
@@ -4342,7 +4342,7 @@ If you don&apos;t have the option to run your own node, there&apos;s an option t
     <message>
         <location filename="../main.qml" line="1055"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation>這個位址收入了 %1 monero，並通過 %2 次的確認。</translation>
+        <translation>這個位址收入了 %1 opacra，並通過 %2 次的確認。</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1066"/>
