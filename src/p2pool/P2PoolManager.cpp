@@ -252,9 +252,7 @@ P2PoolManager::P2PoolManager(QObject *parent)
         m_p2poolPath = QApplication::applicationDirPath() + "/p2pool";
     }
 
-    if (!QDir(m_p2poolPath).exists()) {
-        QDir().mkpath(m_p2poolPath);
-    }
+    // Opacra: no P2Pool, so never create an empty p2pool folder next to the wallet
     m_p2pool = m_p2poolPath + "/p2pool.exe";
 #elif defined(Q_OS_UNIX)
     m_p2poolPath = QApplication::applicationDirPath();
