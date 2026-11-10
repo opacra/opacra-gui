@@ -18,6 +18,11 @@ Good to know:
   blocks (about 30 minutes).
 - Don't run the wallet and the "Start Opacra mainnet" launcher at the same time: both use
   the same node and blockchain folder, and the wallet may stop a node it didn't start.
+- Windows Firewall may ask whether to allow opacrad on public and private networks. Cancel is
+  fine: the node still connects out and syncs; Allow only matters if you want other nodes to
+  connect in to yours.
+- Your wallets are kept in C:\Users\<you>\Opacra\wallets (not in Documents, which OneDrive
+  may copy to the cloud).
 - Windows may say "Windows protected your PC" (the programs aren't code-signed yet):
   choose More info, then Run anyway. Some antivirus programs flag opacrad.exe because the
   node can mine; check the download against the signed SHA-256 on the release page first.
