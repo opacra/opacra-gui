@@ -443,7 +443,7 @@ ApplicationWindow {
 
     function onUriHandler(uri){
         if (uri && (uri.startsWith("opacra://") || uri.startsWith("opacra:"))) {
-            const normalizedUri = uri.replace("monero://", "monero:");
+            const normalizedUri = uri.replace("opacra://", "opacra:");
             const parsed = walletManager.parse_uri_to_object(normalizedUri);
 
             if (parsed.error) {
