@@ -1,6 +1,6 @@
 [submodule "monero"]
 	path = monero
-	url = https://github.com/monero-project/monero
+	url = https://github.com/opacra/opacra
 	ignore = all
 [submodule "external/quirc"]
 	path = external/quirc
