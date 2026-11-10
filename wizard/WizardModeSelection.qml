@@ -153,7 +153,8 @@ Rectangle {
                 imageIcon: "qrc:///images/local-node-full.png"
 
                 onMenuClicked: {
-                    appWindow.persistentSettings.pruneBlockchain = true;
+                    // Opacra: full (unpruned) node by default while the chain is small; every full copy helps the network
+                    appWindow.persistentSettings.pruneBlockchain = false;
                     applyWalletMode(2, 'wizardHome');
                 }
             }
