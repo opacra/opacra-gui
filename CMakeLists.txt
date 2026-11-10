@@ -5,6 +5,17 @@ include(CMakeDependentOption)
 
 message(STATUS "Initiating compile using CMake ${CMAKE_VERSION}")
 
+# Opacra: keep the build machine's folder names out of the programs (__FILE__ and debug info
+# become relative to the repository), for the wallet's own sources as well as the core's.
+include(CheckCCompilerFlag)
+include(CheckCXXCompilerFlag)
+check_c_compiler_flag("-ffile-prefix-map=/a=b" OPACRA_GUI_C_FILE_PREFIX_MAP)
+check_cxx_compiler_flag("-ffile-prefix-map=/a=b" OPACRA_GUI_FILE_PREFIX_MAP)
+if(OPACRA_GUI_C_FILE_PREFIX_MAP AND OPACRA_GUI_FILE_PREFIX_MAP)
+  set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -ffile-prefix-map=${CMAKE_SOURCE_DIR}/=")
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -ffile-prefix-map=${CMAKE_SOURCE_DIR}/=")
+endif()
+
 # Opacra Wallet version (based on Monero GUI v0.18.5.4)
 set(VERSION_MAJOR "1")
 set(VERSION_MINOR "0")
