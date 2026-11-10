@@ -256,7 +256,9 @@ int main(int argc, char *argv[])
     }
 
     QString moneroAccountsDir;
-    #if defined(Q_OS_WIN) || defined(Q_OS_IOS)
+    // Opacra: on Windows the wallets go in the user folder (C:\Users\<name>\Opacra\wallets), not
+    // Documents, which OneDrive often syncs to the cloud.
+    #if defined(Q_OS_IOS)
         QStringList moneroAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation);
     #else
         QStringList moneroAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::HomeLocation);
